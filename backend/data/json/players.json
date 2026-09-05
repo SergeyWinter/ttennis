@@ -1,0 +1,167 @@
+
+{
+  "players":[
+    {
+  "id": 1,
+  "name": "Zhang Jike",
+  " gender": "man",
+  "country": "China",
+  "image": "janjake.webp",
+  "preview": "Олимпийский чемпион, чемпион мира и один из немногих игроков, выигравших Grand Slam...", 
+
+  "equipment": {
+    "blade": {
+      "name":"Zhang Jike original carbon",
+      "image":"zhang_jike_original_carbon.webp"
+    },
+    "forehand":{
+      "name":"DONIC Bluegrip J1",
+      "image":"bluegrip_j1.webp"
+    } ,
+    "backhand": {
+      "name":"DONIC Bluegrip J1",
+      "image":"bluegrip_j1.webp"
+    }
+  },
+  "text": [
+    {
+      "title": "Forehand compilation",
+      "file": "zhang-jike/forehand.mp4"
+    },
+    {
+      "title": "В конце 2024 го",
+      "file": "zhang-jike/backhand.mp4"
+    }
+  ],
+
+  "videos": [
+    {
+      "title": "Forehand compilation",
+      "file": "zhang-jike/forehand.mp4"
+    },
+    {
+      "title": "Backhand compilation",
+      "file": "zhang-jike/backhand.mp4"
+    }
+  ],
+
+  "links": [
+    {
+      "title": "Full match",
+      "url": "https://..."
+    }
+  ]
+    },
+    {
+      "id": 2,
+  "name": "Flavien Coton",
+  " gender": "man",
+  "country": "France",
+  "image": "coton.webp",
+  "preview": "Ему всего 17 лет, но он уже выигрывает титулы WTT среди взрослых и обыгрывает игроков из топ-10, таких как Уго Кальдерано. Это магия? Нет. Это «китайский секрет», примененный во Франции. Давайте рассмотрим его биографию и логику его успеха.",
+
+  "equipment": {
+    "blade": {
+      "name":"Donic Relevant",
+      "image":"DonicRelevant.webp"
+    },
+    "forehand":{
+      "name":"Donic BlueStar A1",
+      "image":"Donic_BlueStar_A1.webp"
+    } ,
+    "backhand": {
+      "name":"Donic BlueStar A1",
+      "image":"Donic_BlueStar_A1.webp"
+    }
+  },
+  "text": [
+    {
+      "title": "Forehand compilation",
+      "file": "zhang-jike/forehand.mp4"
+    },
+    {
+      "title": "В конце 2024 го",
+      "file": "zhang-jike/backhand.mp4"
+    }
+  ],
+
+  "videos": [
+    {
+      "title": "Forehand compilation",
+      "file": "zhang-jike/forehand.mp4"
+    },
+    {
+      "title": "В конце 2024 го",
+      "file": "zhang-jike/backhand.mp4"
+    }
+  ],
+
+  "links": [
+    {
+      "title": "Full match",
+      "url": "https://..."
+    }
+  ]
+    },
+    {
+      "id": 3,
+  "name": "Sabine Winter",
+  " gender": "woman",
+  "country": "Germany",
+  "image": "winter.webp",
+  "preview": "В конце 2024 года Сабина Винтер удивила мир настольного тенниса. В Instagram она объявила о радикальном изменении своего снаряжения. Она перешла на удар слева с антиспиновым вращением. Для топ-игрока, входящего в число лучших в мире, это очень редкое решение.",
+
+  "equipment": {
+    "blade": {
+      "name":"Andro Novacell",
+      "image":"AndroNovacell.webp"
+    },
+    "forehand":{
+      "name":"Andro NUZN",
+      "image":"AndroNUZN.webp"
+    } ,
+    "backhand": {
+      "name":"Dr.Neubauer ABS 3 Pro 2.0mm(Anti-spin)",
+      "image":"DrNeubauerABS3_Pro.webp"
+    }
+  },
+  "text": [
+    {
+      "title": "Forehand compilation",
+      "file": ""
+    },
+    {
+      "title": "В конце 2024 го",
+      "file": "zhang-jike/backhand.mp4"
+    }
+  ],
+
+  "videos": [
+    {
+      "title": "Forehand compilation",
+      "file": "zhang-jike/forehand.mp4"
+    },
+    {
+      "title": "В конце 2024 года ",
+      "file": "zhang-jike/backhand.mp4"
+    }
+  ],
+
+  "links": [
+    {
+      "title": "Full match",
+      "url": "https://..."
+    }
+  ]
+    }
+
+    
+   ],
+  "shipping": [
+    { "id": 1, "label": "По городу", "price": 200 },
+    { "id": 2, "label": "Область", "price": 300 },
+    { "id": 3, "label": "За пределы региона", "price": 500 }
+  ]
+  
+}
+

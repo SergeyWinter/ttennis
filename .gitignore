@@ -1,0 +1,20 @@
+# dependencies
+node_modules/
+client/node_modules/
+backend/node_modules/
+/tmp
+# build
+client/build/
+# videos
+backend/media/videos/
+# env files
+.env
+backend/.env
+client/.env
+
+# logs
+*.log
+
+# system files
+.DS_Store
+Thumbs.db

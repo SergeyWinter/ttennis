@@ -1,0 +1,37 @@
+{
+     "equipment":[
+        {
+         "playerId": 1,
+         "name": "Zhang Jike",
+         " gender": "man",
+         "country": "China",
+         "image": "janjake.jpg", 
+         "blade": "Butterfly Viscaria",
+         "forehand": "DHS Hurricane 3 Neo",
+         "backhand": "Butterfly Tenergy 80"
+         
+        },
+                {
+         "playerId": 2,
+         "name": "Flavien Coton",
+         " gender": "man",
+         "country": "China",
+         "image": "janjake.jpg", 
+         "blade": "Butterfly Viscaria",
+         "forehand": "DHS Hurricane 3 Neo",
+         "backhand": "Butterfly Tenergy 80",
+         "news": []
+        },
+               {
+         "playerId": 3,
+         "name": "Sabine Winter",
+         " gender": "woman",
+         "country": "China",
+         "image": "Sabine_Winter.jpg", 
+         "blade": "Butterfly Viscaria",
+         "forehand": "DHS Hurricane 3 Neo",
+         "backhand": "Butterfly Tenergy 80",
+         "news": []
+        } 
+     ]
+}
