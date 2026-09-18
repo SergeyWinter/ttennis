@@ -1,0 +1,222 @@
+{
+  "_meta": {
+    "title": "Russian Men's Top Players",
+    "ranking_month": "2026-09",
+    "ranking_week": 38,
+    "ranking_source": "ITTF World Table Tennis Ranking / Tabletennis Reference",
+    "country": "Russian Federation",
+    "note": "Equipment is null where current equipment could not be verified sufficiently. Rankings can change weekly."
+  },
+  "players": [
+    {
+      "id": 1,
+      "ranking": 16,
+      "name": "Vladimir Sidorenko",
+      "country": "Russia",
+      "image": null,
+      "equipment": {
+        "blade": {
+          "name": "Mizutani Jun",
+          "image": null
+        },
+        "forehand": {
+          "name": "Blue Grip C2",
+          "image": null
+        },
+        "backhand": {
+          "name": "Blue Star A1",
+          "image": null
+        }
+      }
+    },
+    {
+      "id": 2,
+      "ranking": 63,
+      "name": "Evgeny Tikhonov",
+      "country": "Russia",
+      "image": null,
+      "equipment": {
+        "blade": {
+          "name": null,
+          "image": null
+        },
+        "forehand": {
+          "name": null,
+          "image": null
+        },
+        "backhand": {
+          "name": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "id": 3,
+      "ranking": 82,
+      "name": "Nikita Artemenko",
+      "country": "Russia",
+      "image": null,
+      "equipment": {
+        "blade": {
+          "name": null,
+          "image": null
+        },
+        "forehand": {
+          "name": null,
+          "image": null
+        },
+        "backhand": {
+          "name": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "id": 4,
+      "ranking": 136,
+      "name": "Denis Ivonin",
+      "country": "Russia",
+      "image": null,
+      "equipment": {
+        "blade": {
+          "name": null,
+          "image": null
+        },
+        "forehand": {
+          "name": null,
+          "image": null
+        },
+        "backhand": {
+          "name": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "id": 5,
+      "ranking": 214,
+      "name": "Lev Katsman",
+      "country": "Russia",
+      "image": null,
+      "equipment": {
+        "blade": {
+          "name": null,
+          "image": null
+        },
+        "forehand": {
+          "name": null,
+          "image": null
+        },
+        "backhand": {
+          "name": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "id": 6,
+      "ranking": 228,
+      "name": "Dmitrii Vinogradov",
+      "country": "Russia",
+      "image": null,
+      "equipment": {
+        "blade": {
+          "name": null,
+          "image": null
+        },
+        "forehand": {
+          "name": null,
+          "image": null
+        },
+        "backhand": {
+          "name": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "id": 7,
+      "ranking": 281,
+      "name": "Maksim Grebnev",
+      "country": "Russia",
+      "image": null,
+      "equipment": {
+        "blade": {
+          "name": null,
+          "image": null
+        },
+        "forehand": {
+          "name": null,
+          "image": null
+        },
+        "backhand": {
+          "name": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "id": 8,
+      "ranking": 309,
+      "name": "Kirill Skachkov",
+      "country": "Russia",
+      "image": null,
+      "equipment": {
+        "blade": {
+          "name": null,
+          "image": null
+        },
+        "forehand": {
+          "name": null,
+          "image": null
+        },
+        "backhand": {
+          "name": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "id": 9,
+      "ranking": 355,
+      "name": "Vladislav Makarov",
+      "country": "Russia",
+      "image": null,
+      "equipment": {
+        "blade": {
+          "name": null,
+          "image": null
+        },
+        "forehand": {
+          "name": null,
+          "image": null
+        },
+        "backhand": {
+          "name": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "id": 10,
+      "ranking": 390,
+      "name": "Lev Volin",
+      "country": "Russia",
+      "image": null,
+      "equipment": {
+        "blade": {
+          "name": null,
+          "image": null
+        },
+        "forehand": {
+          "name": null,
+          "image": null
+        },
+        "backhand": {
+          "name": null,
+          "image": null
+        }
+      }
+    }
+  ]
+}

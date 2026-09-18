@@ -1,0 +1,222 @@
+{
+  "_meta": {
+    "title": "Russian Women's Top Players",
+    "ranking_month": "2026-09",
+    "ranking_week": 38,
+    "ranking_source": "ITTF World Table Tennis Ranking / Tabletennis Reference",
+    "country": "Russian Federation",
+    "note": "Equipment is null where current equipment could not be verified sufficiently. Rankings can change weekly."
+  },
+  "players": [
+    {
+      "id": 1,
+      "ranking": 37,
+      "name": "Elizabet Abraamian",
+      "country": "Russia",
+      "image": null,
+      "equipment": {
+        "blade": {
+          "name": null,
+          "image": null
+        },
+        "forehand": {
+          "name": null,
+          "image": null
+        },
+        "backhand": {
+          "name": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "id": 2,
+      "ranking": 98,
+      "name": "Vlada Voronina",
+      "country": "Russia",
+      "image": null,
+      "equipment": {
+        "blade": {
+          "name": null,
+          "image": null
+        },
+        "forehand": {
+          "name": null,
+          "image": null
+        },
+        "backhand": {
+          "name": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "id": 3,
+      "ranking": 140,
+      "name": "Maria Panfilova",
+      "country": "Russia",
+      "image": null,
+      "equipment": {
+        "blade": {
+          "name": null,
+          "image": null
+        },
+        "forehand": {
+          "name": null,
+          "image": null
+        },
+        "backhand": {
+          "name": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "id": 4,
+      "ranking": 173,
+      "name": "Arina Slautina",
+      "country": "Russia",
+      "image": null,
+      "equipment": {
+        "blade": {
+          "name": null,
+          "image": null
+        },
+        "forehand": {
+          "name": null,
+          "image": null
+        },
+        "backhand": {
+          "name": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "id": 5,
+      "ranking": 175,
+      "name": "Valeria Shcherbatykh",
+      "country": "Russia",
+      "image": null,
+      "equipment": {
+        "blade": {
+          "name": null,
+          "image": null
+        },
+        "forehand": {
+          "name": null,
+          "image": null
+        },
+        "backhand": {
+          "name": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "id": 6,
+      "ranking": 219,
+      "name": "Mariia Tailakova",
+      "country": "Russia",
+      "image": null,
+      "equipment": {
+        "blade": {
+          "name": null,
+          "image": null
+        },
+        "forehand": {
+          "name": null,
+          "image": null
+        },
+        "backhand": {
+          "name": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "id": 7,
+      "ranking": 354,
+      "name": "Zlata Terekhova",
+      "country": "Russia",
+      "image": null,
+      "equipment": {
+        "blade": {
+          "name": null,
+          "image": null
+        },
+        "forehand": {
+          "name": null,
+          "image": null
+        },
+        "backhand": {
+          "name": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "id": 8,
+      "ranking": 380,
+      "name": "Ekaterina Zironova",
+      "country": "Russia",
+      "image": null,
+      "equipment": {
+        "blade": {
+          "name": null,
+          "image": null
+        },
+        "forehand": {
+          "name": null,
+          "image": null
+        },
+        "backhand": {
+          "name": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "id": 9,
+      "ranking": 432,
+      "name": "Valeria Kotcyur",
+      "country": "Russia",
+      "image": null,
+      "equipment": {
+        "blade": {
+          "name": null,
+          "image": null
+        },
+        "forehand": {
+          "name": null,
+          "image": null
+        },
+        "backhand": {
+          "name": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "id": 10,
+      "ranking": 833,
+      "name": "Alina Zavarykina",
+      "country": "Russia",
+      "image": null,
+      "equipment": {
+        "blade": {
+          "name": null,
+          "image": null
+        },
+        "forehand": {
+          "name": null,
+          "image": null
+        },
+        "backhand": {
+          "name": null,
+          "image": null
+        }
+      }
+    }
+  ]
+}
