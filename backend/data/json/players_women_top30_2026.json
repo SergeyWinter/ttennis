@@ -10,6 +10,7 @@
       "id": 1,
       "ranking": 1,
       "name": "Sun Yingsha",
+      "gender": "woman",
       "country": "China",
       "image": null,
       "equipment": {
@@ -31,6 +32,7 @@
       "id": 2,
       "ranking": 2,
       "name": "Wang Manyu",
+      "gender": "woman",
       "country": "China",
       "image": null,
       "equipment": {
@@ -52,6 +54,7 @@
       "id": 3,
       "ranking": 3,
       "name": "Miwa Harimoto",
+      "gender": "woman",
       "country": "Japan",
       "image": null,
       "equipment": {
@@ -73,6 +76,7 @@
       "id": 4,
       "ranking": 4,
       "name": "Kuai Man",
+      "gender": "woman",
       "country": "China",
       "image": null,
       "equipment": {
@@ -94,6 +98,7 @@
       "id": 5,
       "ranking": 5,
       "name": "Wang Yidi",
+      "gender": "woman",
       "country": "China",
       "image": null,
       "equipment": {
@@ -115,6 +120,7 @@
       "id": 6,
       "ranking": 6,
       "name": "Hina Hayata",
+      "gender": "woman",
       "country": "Japan",
       "image": null,
       "equipment": {
@@ -136,6 +142,7 @@
       "id": 7,
       "ranking": 7,
       "name": "Chen Xingtong",
+      "gender": "woman",
       "country": "China",
       "image": null,
       "equipment": {
@@ -157,6 +164,7 @@
       "id": 8,
       "ranking": 8,
       "name": "Zhu Yuling",
+      "gender": "woman",
       "country": "Macau",
       "image": null,
       "equipment": {
@@ -178,6 +186,7 @@
       "id": 9,
       "ranking": 9,
       "name": "Sabine Winter",
+      "gender": "woman",
       "country": "Germany",
       "image": null,
       "equipment": {
@@ -199,6 +208,7 @@
       "id": 10,
       "ranking": 10,
       "name": "Shin Yubin",
+      "gender": "woman",
       "country": "South Korea",
       "image": null,
       "equipment": {
@@ -220,6 +230,7 @@
       "id": 11,
       "ranking": 11,
       "name": "Satsuki Odo",
+      "gender": "woman",
       "country": "Japan",
       "image": null,
       "equipment": {
@@ -241,6 +252,7 @@
       "id": 12,
       "ranking": 12,
       "name": "Chen Yi",
+      "gender": "woman",
       "country": "China",
       "image": null,
       "equipment": {
@@ -262,6 +274,7 @@
       "id": 13,
       "ranking": 13,
       "name": "Joo Cheonhui",
+      "gender": "woman",
       "country": "South Korea",
       "image": null,
       "equipment": {
@@ -283,6 +296,7 @@
       "id": 14,
       "ranking": 14,
       "name": "Honoka Hashimoto",
+      "gender": "woman",
       "country": "Japan",
       "image": null,
       "equipment": {
@@ -304,6 +318,7 @@
       "id": 15,
       "ranking": 15,
       "name": "Hitomi Sato",
+      "gender": "woman",
       "country": "Japan",
       "image": null,
       "equipment": {
@@ -325,6 +340,7 @@
       "id": 16,
       "ranking": 16,
       "name": "Shi Xunyao",
+      "gender": "woman",
       "country": "China",
       "image": null,
       "equipment": {
@@ -346,6 +362,7 @@
       "id": 17,
       "ranking": 17,
       "name": "Han Ying",
+      "gender": "woman",
       "country": "Germany",
       "image": null,
       "equipment": {
@@ -367,6 +384,7 @@
       "id": 18,
       "ranking": 18,
       "name": "Miyu Nagasaki",
+      "gender": "woman",
       "country": "Japan",
       "image": null,
       "equipment": {
@@ -388,6 +406,7 @@
       "id": 19,
       "ranking": 19,
       "name": "Adriana Diaz",
+      "gender": "woman",
       "country": "Puerto Rico",
       "image": null,
       "equipment": {
@@ -409,6 +428,7 @@
       "id": 20,
       "ranking": 20,
       "name": "Mima Ito",
+      "gender": "woman",
       "country": "Japan",
       "image": null,
       "equipment": {
@@ -430,6 +450,7 @@
       "id": 21,
       "ranking": 21,
       "name": "Hana Goda",
+      "gender": "woman",
       "country": "Egypt",
       "image": null,
       "equipment": {
@@ -451,6 +472,7 @@
       "id": 22,
       "ranking": 22,
       "name": "Sakura Yokoi",
+      "gender": "woman",
       "country": "Japan",
       "image": null,
       "equipment": {
@@ -472,6 +494,7 @@
       "id": 23,
       "ranking": 23,
       "name": "Qin Yuxuan",
+      "gender": "woman",
       "country": "China",
       "image": null,
       "equipment": {
@@ -493,6 +516,7 @@
       "id": 24,
       "ranking": 24,
       "name": "Bernadette Szocs",
+      "gender": "woman",
       "country": "Romania",
       "image": null,
       "equipment": {
@@ -514,6 +538,7 @@
       "id": 25,
       "ranking": 25,
       "name": "Miyuu Kihara",
+      "gender": "woman",
       "country": "Japan",
       "image": null,
       "equipment": {
@@ -535,6 +560,7 @@
       "id": 26,
       "ranking": 26,
       "name": "Bruna Takahashi",
+      "gender": "woman",
       "country": "Brazil",
       "image": null,
       "equipment": {
@@ -556,6 +582,7 @@
       "id": 27,
       "ranking": 27,
       "name": "Miu Hirano",
+      "gender": "woman",
       "country": "Japan",
       "image": null,
       "equipment": {
@@ -577,6 +604,7 @@
       "id": 28,
       "ranking": 28,
       "name": "Nina Mittelham",
+      "gender": "woman",
       "country": "Germany",
       "image": null,
       "equipment": {
@@ -598,6 +626,7 @@
       "id": 29,
       "ranking": 29,
       "name": "Cheng I-Ching",
+      "gender": "woman",
       "country": "Chinese Taipei",
       "image": null,
       "equipment": {
@@ -619,6 +648,7 @@
       "id": 30,
       "ranking": 30,
       "name": "Kim Nayeong",
+      "gender": "woman",
       "country": "South Korea",
       "image": null,
       "equipment": {

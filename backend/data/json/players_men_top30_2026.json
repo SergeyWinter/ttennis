@@ -11,6 +11,7 @@
       "id": 1,
       "ranking": 1,
       "name": "Wang Chuqin",
+      "gender": "man",
       "country": "China",
       "image": null,
       "equipment": {
@@ -32,6 +33,7 @@
       "id": 2,
       "ranking": 2,
       "name": "Felix Lebrun",
+      "gender": "man",
       "country": "France",
       "image": null,
       "equipment": {
@@ -53,6 +55,7 @@
       "id": 3,
       "ranking": 3,
       "name": "Sora Matsushima",
+      "gender": "man",
       "country": "Japan",
       "image": null,
       "equipment": {
@@ -74,6 +77,7 @@
       "id": 4,
       "ranking": 4,
       "name": "Tomokazu Harimoto",
+      "gender": "man",
       "country": "Japan",
       "image": null,
       "equipment": {
@@ -95,6 +99,7 @@
       "id": 5,
       "ranking": 5,
       "name": "Truls Moregard",
+      "gender": "man",
       "country": "Sweden",
       "image": null,
       "equipment": {
@@ -116,6 +121,7 @@
       "id": 6,
       "ranking": 6,
       "name": "Lin Yun-Ju",
+      "gender": "man",
       "country": "Chinese Taipei",
       "image": null,
       "equipment": {
@@ -137,6 +143,7 @@
       "id": 7,
       "ranking": 7,
       "name": "Hugo Calderano",
+      "gender": "man",
       "country": "Brazil",
       "image": null,
       "equipment": {
@@ -158,6 +165,7 @@
       "id": 8,
       "ranking": 8,
       "name": "Lin Shidong",
+      "gender": "man",
       "country": "China",
       "image": null,
       "equipment": {
@@ -179,6 +187,7 @@
       "id": 9,
       "ranking": 9,
       "name": "Alexis Lebrun",
+      "gender": "man",
       "country": "France",
       "image": null,
       "equipment": {
@@ -200,6 +209,7 @@
       "id": 10,
       "ranking": 10,
       "name": "Jang Woojin",
+      "gender": "man",
       "country": "South Korea",
       "image": null,
       "equipment": {
@@ -221,6 +231,7 @@
       "id": 11,
       "ranking": 11,
       "name": "Qiu Dang",
+      "gender": "man",
       "country": "Germany",
       "image": null,
       "equipment": {
@@ -242,6 +253,7 @@
       "id": 12,
       "ranking": 12,
       "name": "Darko Jorgic",
+      "gender": "man",
       "country": "Slovenia",
       "image": null,
       "equipment": {
@@ -263,6 +275,7 @@
       "id": 13,
       "ranking": 13,
       "name": "Anders Lind",
+      "gender": "man",
       "country": "Denmark",
       "image": null,
       "equipment": {
@@ -284,6 +297,7 @@
       "id": 14,
       "ranking": 14,
       "name": "Shunsuke Togami",
+      "gender": "man",
       "country": "Japan",
       "image": null,
       "equipment": {
@@ -305,6 +319,7 @@
       "id": 15,
       "ranking": 15,
       "name": "Wen Ruibo",
+      "gender": "man",
       "country": "China",
       "image": null,
       "equipment": {
@@ -326,6 +341,7 @@
       "id": 16,
       "ranking": 16,
       "name": "Vladimir Sidorenko",
+      "gender": "man",
       "country": "Russia",
       "image": null,
       "equipment": {
@@ -347,6 +363,7 @@
       "id": 17,
       "ranking": 17,
       "name": "Hiroto Shinozuka",
+      "gender": "man",
       "country": "Japan",
       "image": null,
       "equipment": {
@@ -368,6 +385,7 @@
       "id": 18,
       "ranking": 18,
       "name": "Patrick Franziska",
+      "gender": "man",
       "country": "Germany",
       "image": null,
       "equipment": {
@@ -389,6 +407,7 @@
       "id": 19,
       "ranking": 19,
       "name": "Xiang Peng",
+      "gender": "man",
       "country": "China",
       "image": null,
       "equipment": {
@@ -410,6 +429,7 @@
       "id": 20,
       "ranking": 20,
       "name": "Thibault Poret",
+      "gender": "man",
       "country": "France",
       "image": null,
       "equipment": {
@@ -431,6 +451,7 @@
       "id": 21,
       "ranking": 21,
       "name": "Oh Junsung",
+      "gender": "man",
       "country": "South Korea",
       "image": null,
       "equipment": {
@@ -452,6 +473,7 @@
       "id": 22,
       "ranking": 22,
       "name": "Flavien Coton",
+      "gender": "man",
       "country": "France",
       "image": null,
       "equipment": {
@@ -473,6 +495,7 @@
       "id": 23,
       "ranking": 23,
       "name": "Dimitrij Ovtcharov",
+      "gender": "man",
       "country": "Germany",
       "image": null,
       "equipment": {
@@ -494,6 +517,7 @@
       "id": 24,
       "ranking": 24,
       "name": "Zhou Qihao",
+      "gender": "man",
       "country": "China",
       "image": null,
       "equipment": {
@@ -515,6 +539,7 @@
       "id": 25,
       "ranking": 25,
       "name": "Yukiya Uda",
+      "gender": "man",
       "country": "Japan",
       "image": null,
       "equipment": {
@@ -536,6 +561,7 @@
       "id": 26,
       "ranking": 26,
       "name": "Kanak Jha",
+      "gender": "man",
       "country": "United States",
       "image": null,
       "equipment": {
@@ -557,6 +583,7 @@
       "id": 27,
       "ranking": 27,
       "name": "Omar Assar",
+      "gender": "man",
       "country": "Egypt",
       "image": null,
       "equipment": {
@@ -578,6 +605,7 @@
       "id": 28,
       "ranking": 28,
       "name": "Chen Yuanyu",
+      "gender": "man",
       "country": "China",
       "image": null,
       "equipment": {
@@ -599,6 +627,7 @@
       "id": 29,
       "ranking": 29,
       "name": "Simon Gauzy",
+      "gender": "man",
       "country": "France",
       "image": null,
       "equipment": {
@@ -620,6 +649,7 @@
       "id": 30,
       "ranking": 30,
       "name": "Tomislav Pucar",
+      "gender": "man",
       "country": "Croatia",
       "image": null,
       "equipment": {
