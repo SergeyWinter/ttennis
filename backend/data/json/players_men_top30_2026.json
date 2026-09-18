@@ -1,0 +1,641 @@
+{
+  "_meta": {
+    "title": "Men's Top 30 Table Tennis Players",
+    "ranking_month": "2026-09",
+    "ranking_week": 37,
+    "ranking_source": "ITTF World Table Tennis Ranking / Tabletennis Reference",
+    "note": "null means current equipment could not be verified sufficiently from the available equipment database. Equipment can change during a season."
+  },
+  "players": [
+    {
+      "id": 1,
+      "ranking": 1,
+      "name": "Wang Chuqin",
+      "country": "China",
+      "image": null,
+      "equipment": {
+        "blade": {
+          "name": "DHS Hurricane King 11",
+          "image": null
+        },
+        "forehand": {
+          "name": "DHS Hurricane 3 National Blue Sponge",
+          "image": null
+        },
+        "backhand": {
+          "name": "DHS Hurricane 8",
+          "image": null
+        }
+      }
+    },
+    {
+      "id": 2,
+      "ranking": 2,
+      "name": "Felix Lebrun",
+      "country": "France",
+      "image": null,
+      "equipment": {
+        "blade": {
+          "name": "Victas Félix Lebrun Hyper Carbon",
+          "image": null
+        },
+        "forehand": {
+          "name": "Victas Hybrid K3 Pro",
+          "image": null
+        },
+        "backhand": {
+          "name": "Victas Hybrid K3 Pro",
+          "image": null
+        }
+      }
+    },
+    {
+      "id": 3,
+      "ranking": 3,
+      "name": "Sora Matsushima",
+      "country": "Japan",
+      "image": null,
+      "equipment": {
+        "blade": {
+          "name": "Butterfly Fan Zhendong ALC",
+          "image": null
+        },
+        "forehand": {
+          "name": "Butterfly Dignics 09C",
+          "image": null
+        },
+        "backhand": {
+          "name": "Butterfly ZYRE-03",
+          "image": null
+        }
+      }
+    },
+    {
+      "id": 4,
+      "ranking": 4,
+      "name": "Tomokazu Harimoto",
+      "country": "Japan",
+      "image": null,
+      "equipment": {
+        "blade": {
+          "name": "Butterfly Tomokazu Harimoto Innerforce SUPER ALC",
+          "image": null
+        },
+        "forehand": {
+          "name": "Butterfly Dignics 05",
+          "image": null
+        },
+        "backhand": {
+          "name": "Butterfly ZYRE-03",
+          "image": null
+        }
+      }
+    },
+    {
+      "id": 5,
+      "ranking": 5,
+      "name": "Truls Moregard",
+      "country": "Sweden",
+      "image": null,
+      "equipment": {
+        "blade": {
+          "name": "Stiga Cybershape Carbon",
+          "image": null
+        },
+        "forehand": {
+          "name": "Stiga Helix Platinum HX",
+          "image": null
+        },
+        "backhand": {
+          "name": "Stiga Helix Platinum HX",
+          "image": null
+        }
+      }
+    },
+    {
+      "id": 6,
+      "ranking": 6,
+      "name": "Lin Yun-Ju",
+      "country": "Chinese Taipei",
+      "image": null,
+      "equipment": {
+        "blade": {
+          "name": "Butterfly Lin Yun-Ju Super ZLC",
+          "image": null
+        },
+        "forehand": {
+          "name": "Butterfly Dignics 05",
+          "image": null
+        },
+        "backhand": {
+          "name": "Butterfly Dignics 05",
+          "image": null
+        }
+      }
+    },
+    {
+      "id": 7,
+      "ranking": 7,
+      "name": "Hugo Calderano",
+      "country": "Brazil",
+      "image": null,
+      "equipment": {
+        "blade": {
+          "name": "Butterfly Viscaria Super ALC",
+          "image": null
+        },
+        "forehand": {
+          "name": "Butterfly Dignics 05",
+          "image": null
+        },
+        "backhand": {
+          "name": "Butterfly Dignics 05",
+          "image": null
+        }
+      }
+    },
+    {
+      "id": 8,
+      "ranking": 8,
+      "name": "Lin Shidong",
+      "country": "China",
+      "image": null,
+      "equipment": {
+        "blade": {
+          "name": null,
+          "image": null
+        },
+        "forehand": {
+          "name": "DHS Neo Hurricane 3",
+          "image": null
+        },
+        "backhand": {
+          "name": "Butterfly Dignics 09C",
+          "image": null
+        }
+      }
+    },
+    {
+      "id": 9,
+      "ranking": 9,
+      "name": "Alexis Lebrun",
+      "country": "France",
+      "image": null,
+      "equipment": {
+        "blade": {
+          "name": "Victas ZX-Gear OUT",
+          "image": null
+        },
+        "forehand": {
+          "name": "Victas V>15 Extra",
+          "image": null
+        },
+        "backhand": {
+          "name": "Victas V>15 Extra",
+          "image": null
+        }
+      }
+    },
+    {
+      "id": 10,
+      "ranking": 10,
+      "name": "Jang Woojin",
+      "country": "South Korea",
+      "image": null,
+      "equipment": {
+        "blade": {
+          "name": "Victas Jang Woojin ALC",
+          "image": null
+        },
+        "forehand": {
+          "name": "DHS Hurricane 3",
+          "image": null
+        },
+        "backhand": {
+          "name": "Victas V>15 Extra",
+          "image": null
+        }
+      }
+    },
+    {
+      "id": 11,
+      "ranking": 11,
+      "name": "Qiu Dang",
+      "country": "Germany",
+      "image": null,
+      "equipment": {
+        "blade": {
+          "name": "Donic Original True Carbon",
+          "image": null
+        },
+        "forehand": {
+          "name": "Donic BlueGrip C2",
+          "image": null
+        },
+        "backhand": {
+          "name": "Donic BlueGrip C2",
+          "image": null
+        }
+      }
+    },
+    {
+      "id": 12,
+      "ranking": 12,
+      "name": "Darko Jorgic",
+      "country": "Slovenia",
+      "image": null,
+      "equipment": {
+        "blade": {
+          "name": "Victas ZX-Gear IN",
+          "image": null
+        },
+        "forehand": {
+          "name": "Victas V>15 Extra",
+          "image": null
+        },
+        "backhand": {
+          "name": "Victas V>15 Extra",
+          "image": null
+        }
+      }
+    },
+    {
+      "id": 13,
+      "ranking": 13,
+      "name": "Anders Lind",
+      "country": "Denmark",
+      "image": null,
+      "equipment": {
+        "blade": {
+          "name": null,
+          "image": null
+        },
+        "forehand": {
+          "name": null,
+          "image": null
+        },
+        "backhand": {
+          "name": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "id": 14,
+      "ranking": 14,
+      "name": "Shunsuke Togami",
+      "country": "Japan",
+      "image": null,
+      "equipment": {
+        "blade": {
+          "name": "Butterfly Viscaria",
+          "image": null
+        },
+        "forehand": {
+          "name": "Butterfly Dignics 05",
+          "image": null
+        },
+        "backhand": {
+          "name": "Butterfly Dignics 05",
+          "image": null
+        }
+      }
+    },
+    {
+      "id": 15,
+      "ranking": 15,
+      "name": "Wen Ruibo",
+      "country": "China",
+      "image": null,
+      "equipment": {
+        "blade": {
+          "name": null,
+          "image": null
+        },
+        "forehand": {
+          "name": "DHS Hurricane 3 National Blue Sponge",
+          "image": null
+        },
+        "backhand": {
+          "name": "Butterfly Dignics 05",
+          "image": null
+        }
+      }
+    },
+    {
+      "id": 16,
+      "ranking": 16,
+      "name": "Vladimir Sidorenko",
+      "country": "Russia",
+      "image": null,
+      "equipment": {
+        "blade": {
+          "name": null,
+          "image": null
+        },
+        "forehand": {
+          "name": null,
+          "image": null
+        },
+        "backhand": {
+          "name": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "id": 17,
+      "ranking": 17,
+      "name": "Hiroto Shinozuka",
+      "country": "Japan",
+      "image": null,
+      "equipment": {
+        "blade": {
+          "name": "Butterfly Innerforce Layer ALC",
+          "image": null
+        },
+        "forehand": {
+          "name": "Butterfly Dignics 05",
+          "image": null
+        },
+        "backhand": {
+          "name": "Butterfly Dignics 05",
+          "image": null
+        }
+      }
+    },
+    {
+      "id": 18,
+      "ranking": 18,
+      "name": "Patrick Franziska",
+      "country": "Germany",
+      "image": null,
+      "equipment": {
+        "blade": {
+          "name": "Tibhar Patrick Franziska ZLC",
+          "image": null
+        },
+        "forehand": {
+          "name": "Tibhar Evolution MX-P",
+          "image": null
+        },
+        "backhand": {
+          "name": "Tibhar Evolution MX-P",
+          "image": null
+        }
+      }
+    },
+    {
+      "id": 19,
+      "ranking": 19,
+      "name": "Xiang Peng",
+      "country": "China",
+      "image": null,
+      "equipment": {
+        "blade": {
+          "name": "DHS W968",
+          "image": null
+        },
+        "forehand": {
+          "name": "DHS Hurricane 3 National Blue Sponge",
+          "image": null
+        },
+        "backhand": {
+          "name": "Butterfly Dignics 05",
+          "image": null
+        }
+      }
+    },
+    {
+      "id": 20,
+      "ranking": 20,
+      "name": "Thibault Poret",
+      "country": "France",
+      "image": null,
+      "equipment": {
+        "blade": {
+          "name": null,
+          "image": null
+        },
+        "forehand": {
+          "name": null,
+          "image": null
+        },
+        "backhand": {
+          "name": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "id": 21,
+      "ranking": 21,
+      "name": "Oh Junsung",
+      "country": "South Korea",
+      "image": null,
+      "equipment": {
+        "blade": {
+          "name": "Butterfly Viscaria",
+          "image": null
+        },
+        "forehand": {
+          "name": "Butterfly Dignics 05",
+          "image": null
+        },
+        "backhand": {
+          "name": "Butterfly Dignics 05",
+          "image": null
+        }
+      }
+    },
+    {
+      "id": 22,
+      "ranking": 22,
+      "name": "Flavien Coton",
+      "country": "France",
+      "image": null,
+      "equipment": {
+        "blade": {
+          "name": null,
+          "image": null
+        },
+        "forehand": {
+          "name": null,
+          "image": null
+        },
+        "backhand": {
+          "name": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "id": 23,
+      "ranking": 23,
+      "name": "Dimitrij Ovtcharov",
+      "country": "Germany",
+      "image": null,
+      "equipment": {
+        "blade": {
+          "name": "Butterfly Ovtcharov Innerforce ALC",
+          "image": null
+        },
+        "forehand": {
+          "name": "Butterfly Dignics 05",
+          "image": null
+        },
+        "backhand": {
+          "name": "Butterfly Dignics 05",
+          "image": null
+        }
+      }
+    },
+    {
+      "id": 24,
+      "ranking": 24,
+      "name": "Zhou Qihao",
+      "country": "China",
+      "image": null,
+      "equipment": {
+        "blade": {
+          "name": null,
+          "image": null
+        },
+        "forehand": {
+          "name": "DHS Hurricane 3 National Blue Sponge",
+          "image": null
+        },
+        "backhand": {
+          "name": "Butterfly Dignics 05",
+          "image": null
+        }
+      }
+    },
+    {
+      "id": 25,
+      "ranking": 25,
+      "name": "Yukiya Uda",
+      "country": "Japan",
+      "image": null,
+      "equipment": {
+        "blade": {
+          "name": "Butterfly Viscaria",
+          "image": null
+        },
+        "forehand": {
+          "name": "Butterfly Dignics 05",
+          "image": null
+        },
+        "backhand": {
+          "name": "Butterfly Dignics 05",
+          "image": null
+        }
+      }
+    },
+    {
+      "id": 26,
+      "ranking": 26,
+      "name": "Kanak Jha",
+      "country": "United States",
+      "image": null,
+      "equipment": {
+        "blade": {
+          "name": "Butterfly Viscaria",
+          "image": null
+        },
+        "forehand": {
+          "name": "Butterfly Dignics 09C",
+          "image": null
+        },
+        "backhand": {
+          "name": "Butterfly Dignics 05",
+          "image": null
+        }
+      }
+    },
+    {
+      "id": 27,
+      "ranking": 27,
+      "name": "Omar Assar",
+      "country": "Egypt",
+      "image": null,
+      "equipment": {
+        "blade": {
+          "name": "Butterfly Viscaria",
+          "image": null
+        },
+        "forehand": {
+          "name": "Butterfly Dignics 05",
+          "image": null
+        },
+        "backhand": {
+          "name": "Butterfly Dignics 05",
+          "image": null
+        }
+      }
+    },
+    {
+      "id": 28,
+      "ranking": 28,
+      "name": "Chen Yuanyu",
+      "country": "China",
+      "image": null,
+      "equipment": {
+        "blade": {
+          "name": null,
+          "image": null
+        },
+        "forehand": {
+          "name": null,
+          "image": null
+        },
+        "backhand": {
+          "name": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "id": 29,
+      "ranking": 29,
+      "name": "Simon Gauzy",
+      "country": "France",
+      "image": null,
+      "equipment": {
+        "blade": {
+          "name": "Butterfly Viscaria",
+          "image": null
+        },
+        "forehand": {
+          "name": "Butterfly Dignics 05",
+          "image": null
+        },
+        "backhand": {
+          "name": "Butterfly Dignics 05",
+          "image": null
+        }
+      }
+    },
+    {
+      "id": 30,
+      "ranking": 30,
+      "name": "Tomislav Pucar",
+      "country": "Croatia",
+      "image": null,
+      "equipment": {
+        "blade": {
+          "name": null,
+          "image": null
+        },
+        "forehand": {
+          "name": null,
+          "image": null
+        },
+        "backhand": {
+          "name": null,
+          "image": null
+        }
+      }
+    }
+  ]
+}
