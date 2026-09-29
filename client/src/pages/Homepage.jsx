@@ -42,7 +42,7 @@ function Homepage () {
         {/* 3. Теперь мы перебираем корректный массив из состояния */}
         <Col xs={12} md={8} className=" p-4 border border-info">
           {playersList.map((player) => ( 
-            <PlayerCard key={player.id} player={player} />    
+            <PlayerCard key={`${player.gender}-${player.id}`} player={player} />    
             ))}
         </Col>
         <Col xs={12} md={4} className=" text-white p-4 border border-info">{/*bg-white*/}

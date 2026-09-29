@@ -12,6 +12,7 @@
       "id": 1,
       "ranking": 16,
       "name": "Vladimir Sidorenko",
+      "gender": "man",
       "country": "Russia",
       "image": null,
       "equipment": {
@@ -33,6 +34,7 @@
       "id": 2,
       "ranking": 63,
       "name": "Evgeny Tikhonov",
+      "gender": "man",
       "country": "Russia",
       "image": null,
       "equipment": {
@@ -54,6 +56,7 @@
       "id": 3,
       "ranking": 82,
       "name": "Nikita Artemenko",
+      "gender": "man",
       "country": "Russia",
       "image": null,
       "equipment": {
@@ -75,6 +78,7 @@
       "id": 4,
       "ranking": 136,
       "name": "Denis Ivonin",
+      "gender": "man",
       "country": "Russia",
       "image": null,
       "equipment": {
@@ -96,6 +100,7 @@
       "id": 5,
       "ranking": 214,
       "name": "Lev Katsman",
+      "gender": "man",
       "country": "Russia",
       "image": null,
       "equipment": {
@@ -117,6 +122,7 @@
       "id": 6,
       "ranking": 228,
       "name": "Dmitrii Vinogradov",
+      "gender": "man",
       "country": "Russia",
       "image": null,
       "equipment": {
@@ -138,6 +144,7 @@
       "id": 7,
       "ranking": 281,
       "name": "Maksim Grebnev",
+      "gender": "man",
       "country": "Russia",
       "image": null,
       "equipment": {
@@ -159,6 +166,7 @@
       "id": 8,
       "ranking": 309,
       "name": "Kirill Skachkov",
+      "gender": "man",
       "country": "Russia",
       "image": null,
       "equipment": {
@@ -180,6 +188,7 @@
       "id": 9,
       "ranking": 355,
       "name": "Vladislav Makarov",
+      "gender": "man",
       "country": "Russia",
       "image": null,
       "equipment": {
@@ -201,6 +210,7 @@
       "id": 10,
       "ranking": 390,
       "name": "Lev Volin",
+      "gender": "man",
       "country": "Russia",
       "image": null,
       "equipment": {
