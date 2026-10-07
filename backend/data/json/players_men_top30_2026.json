@@ -13,19 +13,19 @@
       "name": "Wang Chuqin",
       "gender": "man",
       "country": "China",
-      "image": null,
+      "image": "Wang-Chuqin-1.jpg",
       "equipment": {
         "blade": {
           "name": "DHS Hurricane King 11",
-          "image": null
+          "image": "DHS-Hurricane- King-11.jpg"
         },
         "forehand": {
           "name": "DHS Hurricane 3 National Blue Sponge",
-          "image": null
+          "image": "DHS-Hurricane-3.jpg"
         },
         "backhand": {
           "name": "DHS Hurricane 8",
-          "image": null
+          "image": "DHS-Hurricane-8.jpg"
         }
       }
     },
@@ -35,19 +35,19 @@
       "name": "Felix Lebrun",
       "gender": "man",
       "country": "France",
-      "image": null,
+      "image": "Félix-Lebrun-1.jpg",
       "equipment": {
         "blade": {
           "name": "Victas Félix Lebrun Hyper Carbon",
-          "image": null
+          "image": "Victas-Félix-Lebrun-Hyper-Carbon.jpg"
         },
         "forehand": {
           "name": "Victas Hybrid K3 Pro",
-          "image": null
+          "image": "Victas-Hybrid-K3-Pro.jpg"
         },
         "backhand": {
           "name": "Victas Hybrid K3 Pro",
-          "image": null
+          "image": "Victas-Hybrid-K3-Pro.jpg"
         }
       }
     },
@@ -57,19 +57,19 @@
       "name": "Sora Matsushima",
       "gender": "man",
       "country": "Japan",
-      "image": null,
+      "image": "Sora-Matsushima-1.jpg",
       "equipment": {
         "blade": {
           "name": "Butterfly Fan Zhendong ALC",
-          "image": null
+          "image": "Butterfly-Fan-Zhendong-ALC.jpg"
         },
         "forehand": {
           "name": "Butterfly Dignics 09C",
-          "image": null
+          "image": "Butterfly-Dignics-09C.jpg"
         },
         "backhand": {
           "name": "Butterfly ZYRE-03",
-          "image": null
+          "image": "Butterfly-ZYRE-03.jpg"
         }
       }
     },

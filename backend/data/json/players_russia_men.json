@@ -14,7 +14,7 @@
       "name": "Vladimir Sidorenko",
       "gender": "man",
       "country": "Russia",
-      "image": null,
+      "image": "Vladimir-Sidorenko-1.jpg",
       "equipment": {
         "blade": {
           "name": "Mizutani Jun",
@@ -36,7 +36,7 @@
       "name": "Evgeny Tikhonov",
       "gender": "man",
       "country": "Russia",
-      "image": null,
+      "image": "Evgeny-Tikhonov-1.jpg",
       "equipment": {
         "blade": {
           "name": null,
@@ -58,7 +58,7 @@
       "name": "Nikita Artemenko",
       "gender": "man",
       "country": "Russia",
-      "image": null,
+      "image": "Nikita-Artemenko-1.jpg",
       "equipment": {
         "blade": {
           "name": null,
