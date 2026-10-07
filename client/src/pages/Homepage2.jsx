@@ -39,32 +39,15 @@ const currentPlayers = playerType === 'world' ? worldPlayers: russiaPlayers;
   return (
         <Row className="h-100">
             {/* ЛЕВАЯ ЧАСТЬ — ИГРОКИ */}
-            <Col
-                xs={12}
-                md={8}
-                className="p-4 border border-info"
-            >
+            <Col xs={12} md={8} className="p-4 border border-info" >
                 {/* МЕНЮ ИГРОКОВ */}
                 <div className="mb-4">
-                    <Button
-                        variant={
-                            playerType === 'world'
-                                ? 'info'
-                                : 'outline-info'
-                        }
-                        className="me-2"
-                        onClick={() => setPlayerType('world')}
-                    >
+                    <Button variant={playerType === 'world' ? 'info' : 'outline-info'} className="me-2"  onClick={() => setPlayerType('world')} >
                         World Players
                     </Button>
-                    <Button
-                        variant={
-                            playerType === 'russia'
-                                ? 'info'
-                                : 'outline-info'
-                        }
-                        onClick={() => setPlayerType('russia')}
-                    >Russia Players</Button>
+                    <Button variant={playerType === 'russia' ? 'info'  : 'outline-info'} onClick={() => setPlayerType('russia')}>
+                        Russia Players
+                    </Button>
                 </div>
                 {/* СПИСОК ИГРОКОВ */}
                 {currentPlayers.map((player) => (
@@ -75,11 +58,7 @@ const currentPlayers = playerType === 'world' ? worldPlayers: russiaPlayers;
                 ))}
             </Col>
             {/* ПРАВАЯ ЧАСТЬ — ВИДЕО */}
-            <Col
-                xs={12}
-                md={4}
-                className="text-white p-4 border border-info"
-            >
+            <Col xs={12} md={4} className="text-white p-4 border border-info">
                 <Videosidbar videos={videosList} />
             </Col>
         </Row>

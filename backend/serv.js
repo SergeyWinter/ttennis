@@ -4,6 +4,7 @@ require('dotenv').config();
 const path = require('path');
 const testRoutes=require('./routes/testRoutes');
 const homepageRoutes = require('./routes/homepageRoutes');
+// const homepageRoutes2 = require('./routes/homepageRoutes2');
 const videosRoutes = require('./routes/videosRoutes');
 
 const app = express();
@@ -17,7 +18,9 @@ app.use(express.json());
 //   res.json({ message: 'API работает' });
 // });
 app.use('/api',testRoutes);
-app.use('/api/homepage', homepageRoutes);// API временный для client   //http://localhost:5001/api/homepage
+app.use('/api/homepage', homepageRoutes);
+// API временный для client   //http://localhost:5001/api/homepage
+// app.use('/api/homepages',homepageRoutes2 );
 app.use('/api/videos', videosRoutes);
 
 app.use('/image', express.static('media/image'));
