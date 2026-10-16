@@ -4,7 +4,7 @@ import { PlayerCard } from '../components/PlayerCard';
 import { getHomepageData } from '../services/homepageService'
 import { Videosidbar } from './Videosidbar';
 
-function Homepage2() {
+function Equipment() {
 const [worldPlayers, setWorldPlayers] = useState([]);
 const [russiaPlayers, setRussiaPlayers] = useState([]);
 const [videosList, setVideosList] = useState([]);
@@ -51,10 +51,7 @@ const currentPlayers = playerType === 'world' ? worldPlayers: russiaPlayers;
                 </div>
                 {/* СПИСОК ИГРОКОВ */}
                 {currentPlayers.map((player) => (
-                    <PlayerCard
-                        key={`${player.gender}-${player.id}`}
-                        player={player}
-                    />
+                    <PlayerCard key={`${player.gender}-${player.id}`} player={player} />
                 ))}
             </Col>
             {/* ПРАВАЯ ЧАСТЬ — ВИДЕО */}
@@ -65,4 +62,4 @@ const currentPlayers = playerType === 'world' ? worldPlayers: russiaPlayers;
   );
 }
 
-export {Homepage2};
+export {Equipment};

@@ -1,5 +1,6 @@
 import React from 'react';
 import {Nav,Navbar,NavDropdown,Container,FormControl,Form,Button} from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 function Header() {
   return (
@@ -26,7 +27,8 @@ function Header() {
             <Navbar.Collapse id="basic-navbar-nav">
               {/* className="mx-auto" выравнивает меню по центру */}
               <Nav className="mx-auto">
-                <Nav.Link href="#inventory">Инвентарь</Nav.Link>
+                <Nav.Link as={Link} to="/equipment">Инвентарь</Nav.Link>
+                {/* <Nav.Link href="#inventory">Инвентарь</Nav.Link> */}
                 <Nav.Link href="/videos" >Видео</Nav.Link>
                 <NavDropdown title="Dropdown" id="basic-nav-dropdown">
                   <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
