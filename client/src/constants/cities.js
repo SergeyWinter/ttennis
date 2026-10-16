@@ -1,0 +1,10 @@
+export const RUSSIAN_CITIES = [
+    { value: 'moscow',    label: 'Москва' },
+    { value: 'spb',       label: 'Санкт-Петербург' },
+    { value: 'ekb',       label: 'Екатеринбург' },
+    { value: 'kazan',     label: 'Казань' },
+    { value: 'novosib',   label: 'Новосибирск' },
+    { value: 'rostov',    label: 'Ростов-на-Дону' },
+    { value: 'krasnodar', label: 'Краснодар' },
+    { value: 'nizhny',    label: 'Нижний Новгород' },
+];

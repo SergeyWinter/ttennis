@@ -26,7 +26,7 @@ function NewsHome() {
     }, []);
 
     return (
-        <div>
+        <>
             <HeroBanner />
             <Row className="h-100">
             
@@ -57,7 +57,7 @@ function NewsHome() {
                     {/* <Videosidbar videos={videosList} /> */}
                 </Col>
             </Row>
-        </div>
+        </>
     );
 }
 
