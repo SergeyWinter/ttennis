@@ -5,7 +5,8 @@ const path = require('path');
 const testRoutes=require('./routes/testRoutes');
 const homepageRoutes = require('./routes/homepageRoutes');
 const videosRoutes = require('./routes/videosRoutes');
-
+const citiesRoutes = require('./routes/citiesRoutes');
+const newsRoutes = require('./routes/newsRoutes');
 const app = express();
 const PORT = process.env.PORT || 5001;
 
@@ -19,7 +20,8 @@ app.use(express.json());
 app.use('/api',testRoutes);
 app.use('/api/homepage', homepageRoutes);// API временный для client   //http://localhost:5001/api/homepage
 app.use('/api/videos', videosRoutes);
-
+app.use('/api/cities', citiesRoutes);
+app.use('/api/news', newsRoutes);
 app.use('/image', express.static('media/image'));
 app.use('/videos', express.static('media/videos'));
 // подключение build

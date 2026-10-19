@@ -1,0 +1,44 @@
+{
+    "news": [
+        {
+            "id": 1,
+            "region": "world",
+            "category": "WTT Grand Smash",
+            "date": "2026-10-15",
+            "title": "Five Biggest Talking Points From China Smash 2026",
+            "preview": "The dust is finally settling after 11 marathon days of table tennis at China Smash 2026..."
+        },
+        {
+            "id": 2,
+            "region": "world",
+            "category": "WTT Contender",
+            "date": "2026-10-14",
+            "title": "WTT Contender Returns With Battle In Istanbul",
+            "preview": "November is set to be one of the most important months on the WTT Series calendar..."
+        },
+        {
+            "id": 10,
+            "region": "moscow",
+            "category": "Чемпионат Москвы",
+            "date": "2026-10-12",
+            "title": "Финал Кубка Москвы по настольному теннису",
+            "preview": "В финале встретились сильнейшие спортсмены столицы. Игра была напряженной до последнего сета..."
+        },
+        {
+            "id": 11,
+            "region": "moscow",
+            "category": "Клубные новости",
+            "date": "2026-10-10",
+            "title": "Открытие нового клуба в центре Москвы",
+            "preview": "Для любителей настольного тенниса открылась новая современная площадка с профессиональными столами..."
+        },
+        {
+            "id": 20,
+            "region": "ekb",
+            "category": "Урал",
+            "date": "2026-10-08",
+            "title": "Турнир в Екатеринбурге собрал рекордное число участников",
+            "preview": "Кубок Урала в этом году привлек более 200 спортсменов из разных регионов России..."
+        }
+    ]
+}
