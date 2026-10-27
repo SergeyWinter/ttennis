@@ -1,9 +1,10 @@
 import React, { useState, useEffect } from 'react';
-import { Row, Col, Card, Button, Form } from 'react-bootstrap';
+import { Row, Col, Button, Form } from 'react-bootstrap';
 import { HeroBanner } from '../components/HeroBanner';
 import { useFetch } from '../hooks/useFetch'; // Наш новый хук
 import { getCities } from '../services/citiesService'; // Сервис городов
 import { getNews } from '../services/newsService'; // Сервис новостей
+import { NewsCard } from '../components/NewsCard'; // Компонент карточки новости
 
 function NewsHome() {
     // Состояния для фильтров
@@ -77,17 +78,7 @@ function NewsHome() {
                         <p className="text-secondary">Новостей пока нет.</p>
                     )}
                     {!newsLoading && !newsError && news.map((item) => (
-                        <Card key={item.id} bg="dark" text="light" className="mb-3 border-info">
-                            <Card.Body>
-                                <div style={{ color: 'rgb(56, 235, 235)', fontSize: '13px', textTransform: 'uppercase' }}>
-                                    {item.category}
-                                </div>
-                                <Card.Title className="mt-2" style={{ color: '#fff' }}>
-                                    {item.title}
-                                </Card.Title>
-                                <Card.Text>{item.preview}</Card.Text>
-                            </Card.Body>
-                        </Card>
+                        <NewsCard key={item.id} news={item} />
                     ))}
                 </Col>
                 {/* ПРАВАЯ ЧАСТЬ — ВИДЕО */}
