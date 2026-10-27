@@ -4,6 +4,7 @@ import { HeroBanner } from '../components/HeroBanner';
 import { useFetch } from '../hooks/useFetch'; // Наш новый хук
 import { getCities } from '../services/citiesService'; // Сервис городов
 import { getNews } from '../services/newsService'; // Сервис новостей
+// import {getNewsById, getNews} from '../services/newsService'; // Сервис новостей
 import { NewsCard } from '../components/NewsCard'; // Компонент карточки новости
 
 function NewsHome() {

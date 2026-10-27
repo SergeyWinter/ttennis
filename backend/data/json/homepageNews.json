@@ -7,7 +7,8 @@
             "date": "2026-10-15",
             "title": "Five Biggest Talking Points From China Smash 2026",
             "preview": "The dust is finally settling after 11 marathon days of table tennis at China Smash 2026...",
-            "image": "/image/news/abramian.webp"
+            "image": "/image/news/abramian.webp",
+            "text": "Полный текст статьи. Здесь может быть несколько абзацев. The dust is finally settling after 11 marathon days of table tennis at China Smash 2026, where new champions were born, titles were defended..."
         },
         {
             "id": 2,
@@ -16,7 +17,8 @@
             "date": "2026-10-14",
             "title": "WTT Contender Returns With Battle In Istanbul",
             "preview": "November is set to be one of the most important months on the WTT Series calendar...",
-            "image": "https://picsum.photos/400/300?random=2"
+            "image": "https://picsum.photos/400/300?random=2",
+            "text": "Полный текст статьи. Здесь может быть несколько абзацев. The dust is finally settling after 11 marathon days of table tennis at China Smash 2026, where new champions were born, titles were defended..."
         },
         {
             "id": 10,
@@ -25,7 +27,8 @@
             "date": "2026-10-12",
             "title": "Финал Кубка Москвы по настольному теннису",
             "preview": "В финале встретились сильнейшие спортсмены столицы. Игра была напряженной до последнего сета...",
-            "image": "https://picsum.photos/400/300?random=10"
+            "image": "https://picsum.photos/400/300?random=10",
+            "text": "Полный текст статьи. Здесь может быть несколько абзацев. The dust is finally settling after 11 marathon days of table tennis at China Smash 2026, where new champions were born, titles were defended..."
         },
         {
             "id": 11,
@@ -34,7 +37,8 @@
             "date": "2026-10-10",
             "title": "Открытие нового клуба в центре Москвы",
             "preview": "Для любителей настольного тенниса открылась новая современная площадка с профессиональными столами...",
-            "image": "https://picsum.photos/400/300?random=11"
+            "image": "https://picsum.photos/400/300?random=11",
+            "text": "Полный текст статьи. Здесь может быть несколько абзацев. The dust is finally settling after 11 marathon days of table tennis at China Smash 2026, where new champions were born, titles were defended..."
         },
         {
             "id": 20,
@@ -43,7 +47,8 @@
             "date": "2026-10-08",
             "title": "Турнир в Екатеринбурге собрал рекордное число участников",
             "preview": "Кубок Урала в этом году привлек более 200 спортсменов из разных регионов России...",
-            "image": "https://picsum.photos/400/300?random=20"
+            "image": "https://picsum.photos/400/300?random=20",
+            "text": "Полный текст статьи. Здесь может быть несколько абзацев. The dust is finally settling after 11 marathon days of table tennis at China Smash 2026, where new champions were born, titles were defended..."
         }
     ]
 }

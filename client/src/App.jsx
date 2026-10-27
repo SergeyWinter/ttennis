@@ -7,6 +7,7 @@ import { Equipment } from './pages/Equipment';
 import {Notfoundpage} from './pages/Notfoundpage';
 import { Mainvideos } from './pages/Mainvideos';
 import {Videos} from './pages/Videos';
+import { NewsPage } from './pages/NewsPage';
 // import { Videosidbar } from './pages/Videosidbar';
 
 function App() {
@@ -16,7 +17,7 @@ function App() {
         <Route path="/" element={<Layout/>}>
           {/* <Route index element={<Homepage />} /> */}
            <Route index element={<NewsHome />} />{/* Главная — новости */}
-          
+          <Route path="/news/:id" element={<NewsPage />} />
           <Route path="/equipment" element={<Equipment />} />
           <Route path="/videos" element={<Videos />} />
           <Route path='/mainvideos/:id' element={<Mainvideos/>} />

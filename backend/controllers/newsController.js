@@ -16,7 +16,24 @@ const getNews = (req, res) => {
         res.status(500).json({ error: 'Internal server error' });
     }
 };
+const getNewsById = (req, res) => {
+    try {
+        const id = parseInt(req.params.id);
+        const allNews = newsData?.news ?? [];
+        const newsItem = allNews.find(n => n.id === id);
+
+        if (!newsItem) {
+            return res.status(404).json({ error: 'Новость не найдена' });
+        }
+
+        res.json(newsItem);
+    } catch (err) {
+        console.error('getNewsById error:', err);
+        res.status(500).json({ error: 'Internal server error' });
+    }
+};
 
 module.exports = {
     getNews,
+    getNewsById,
 };

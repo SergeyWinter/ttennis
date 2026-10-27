@@ -1,6 +1,7 @@
 import React from 'react';
 import { Card, Row, Col, Badge } from 'react-bootstrap';
 import { API_BASE } from '../constants/api'; // Базовый URL твоего бэкенда
+import { Link } from 'react-router-dom';
 
 
 function NewsCard({ news }) {
@@ -57,9 +58,9 @@ function NewsCard({ news }) {
                         
                         {/* Кнопка "Читать далее" внизу */}
                         <div className="mt-auto pt-2">
-                            <span className="text-info" style={{ cursor: 'pointer', fontWeight: 500 }}>
+                            <Link to={`/news/${news.id}`} className="text-info text-decoration-none" style={{ fontWeight: 500 }}>
                                 Читать далее →
-                            </span>
+                            </Link>
                         </div>
                     </Card.Body>
                 </Col>
