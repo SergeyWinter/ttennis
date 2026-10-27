@@ -13,7 +13,7 @@ const MOCK_NEWS = [
 ];
 
 const API_BASE = 'http://localhost:5001';
-const USE_MOCK = true; // Пока true, потом переключим на false
+const USE_MOCK = false; // Пока true, потом переключим на false
 
 export async function getNews(region) {
     if (USE_MOCK) {
@@ -27,7 +27,7 @@ export async function getNews(region) {
     }
 
     // Когда будет реальный API, раскомментируешь это:
-    // const res = await fetch(`${API_BASE}/api/news?region=${region}`);
-    // if (!res.ok) throw new Error('Ошибка загрузки новостей');
-    // return res.json();
+    const res = await fetch(`${API_BASE}/api/news?region=${region}`);
+    if (!res.ok) throw new Error('Ошибка загрузки новостей');
+    return res.json();
 }

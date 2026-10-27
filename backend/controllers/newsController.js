@@ -2,6 +2,7 @@
 const newsData = require('../data/json/homepageNews.json');
 
 const getNews = (req, res) => {
+    // console.log('getNews called with query:', req.query);
     try {
         const region = req.query.region || 'world';
         const allNews = newsData?.news ?? [];

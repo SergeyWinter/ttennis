@@ -1,7 +1,7 @@
 import { RUSSIAN_CITIES } from '../constants/cities';
 
 const API_BASE = 'http://localhost:5001';
-const USE_MOCK = true; // ← true пока нет API, потом false
+const USE_MOCK = false; // ← true пока нет API, потом false
 
 /**
  * Загружает список городов России.
