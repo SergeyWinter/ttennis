@@ -2,6 +2,7 @@ import React from 'react';
 import {Row,Col,} from 'react-bootstrap';
 import janjake from '../pages/img/janjake.jpg';
 import janjake2 from '../pages/img/janjake2.png';
+import { API_BASE } from '../constants/api'; // Базовый URL твоего бэкенда
 
 
 function Post() {
@@ -34,7 +35,7 @@ function Post() {
         <img
             // src={janjake2}
             // src={`http://localhost:3000/media/image/rubbers/tenergy-05_1.webp`}
-            src={`http://localhost:5001/image/rubbers/tenergy-05_1.webp`}
+            src={`${API_BASE}/image/rubbers/tenergy-05_1.webp`}
         //    http://localhost:5001/image/rubbers/30129_1_LRG-300x300.jpg
                  
             alt="preview"

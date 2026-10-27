@@ -2,6 +2,7 @@ import React from 'react';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import { Link } from 'react-router-dom';
+import { API_BASE } from '../constants/api'; // Базовый URL твоего бэкенда
 
 function Videosidbar({videos}) {
  
@@ -9,7 +10,7 @@ function Videosidbar({videos}) {
     <>
         {videos.map((item, index) => (
         <Card className="bg-dark text-white" key={item.id} >
-            <Card.Img variant="top" src={`http://localhost:5001/image/${item.image}`} />
+            <Card.Img variant="top" src={`${API_BASE}/image/${item.image}`} />
             <Card.Body>
                 <Card.Title>Seria {item.episode}</Card.Title>
                 <Card.Text>

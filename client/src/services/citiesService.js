@@ -1,6 +1,7 @@
 import { RUSSIAN_CITIES } from '../constants/cities';
+import { API_BASE } from '../constants/api';
 
-const API_BASE = 'http://localhost:5001';
+// const API_BASE = 'http://localhost:5001';
 const USE_MOCK = false; // ← true пока нет API, потом false
 
 /**

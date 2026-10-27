@@ -1,8 +1,7 @@
 import React from 'react';
 import { Card, Row, Col, Badge } from 'react-bootstrap';
+import { API_BASE } from '../constants/api'; // Базовый URL твоего бэкенда
 
-// Базовый URL твоего бэкенда (чтобы картинки грузились с порта 5001)
-const API_BASE = 'http://localhost:5001';
 
 function NewsCard({ news }) {
     // Форматируем дату (из "2026-10-15" в "15 окт. 2026")

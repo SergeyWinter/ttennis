@@ -1,4 +1,5 @@
 // src/services/newsService.js
+import { API_BASE } from '../constants/api'; // Базовый URL твоего бэкенда
 
 // Пока API нет, используем мок-данные прямо здесь
 const MOCK_NEWS = [
@@ -12,7 +13,7 @@ const MOCK_NEWS = [
     { id: 20, region: 'ekb',    category: 'Урал',             title: 'Турнир в Екатеринбурге',  preview: 'Кубок Урала собрал...' },
 ];
 
-const API_BASE = 'http://localhost:5001';
+// const API_BASE = 'http://localhost:5001';
 const USE_MOCK = false; // Пока true, потом переключим на false
 
 export async function getNews(region) {

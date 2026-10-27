@@ -1,5 +1,6 @@
 import React from 'react';
 import { Row, Col } from 'react-bootstrap';
+import { API_BASE } from '../constants/api'; // Базовый URL твоего бэкенда
 
 function EquipmentCard({ image, name, color, baseUrl }) {
     return (
@@ -48,7 +49,7 @@ function EquipmentCard({ image, name, color, baseUrl }) {
 }
 
 function PlayerCard({ player }) {
-    const IMG_BASE = 'http://localhost:5001/image';
+    const IMG_BASE = `${API_BASE}/image`;
 
     return (
         <Row className="mb-5 border-bottom border-info pb-4 align-items-start">

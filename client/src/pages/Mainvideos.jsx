@@ -3,6 +3,7 @@ import { useParams } from 'react-router-dom';
 import { Plyr } from 'plyr-react';
 // import Plyr from 'plyr-react';
 import 'plyr-react/plyr.css';
+import { API_BASE } from '../constants/api'; // Базовый URL твоего бэкенда
 
 function Mainvideos() {
     const { id } = useParams();
@@ -12,7 +13,7 @@ function Mainvideos() {
         const loadVideo = async () => {
             try {
                 const response = await fetch(
-                    `http://localhost:5001/api/videos/${id}`
+                    `${API_BASE}/api/videos/${id}`
                 );
                 if (!response.ok) {
                     throw new Error('Видео не найдено');
@@ -40,7 +41,7 @@ function Mainvideos() {
                     type: 'video',
                     sources: [
                         {
-                            src: `http://localhost:5001/videos/${video.video}`,
+                            src: `${API_BASE}/videos/${video.video}`,
                             type: 'video/mp4'
                         }]}}
             />
