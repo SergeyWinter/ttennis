@@ -1,65 +1,67 @@
-import React, { useEffect, useState } from 'react';
-import {Row,Col,Button} from 'react-bootstrap';
+import React, { useState, useMemo } from 'react';
+import { Row, Col, Button, Spinner, Alert } from 'react-bootstrap';
 import { PlayerCard } from '../components/PlayerCard';
-import { getHomepageData } from '../services/playersService'
-import { Videosidbar } from './Videosidbar';
+import { useFetch } from '../hooks/useFetch';
+import { getHomepageData } from '../services/playersService';
 
 function Equipment() {
-const [worldPlayers, setWorldPlayers] = useState([]);
-const [russiaPlayers, setRussiaPlayers] = useState([]);
-const [videosList, setVideosList] = useState([]);
-const [playerType, setPlayerType] = useState('world');
+    const [playerType, setPlayerType] = useState('world');
 
-useEffect(() => {
-        const fetchHomepageData = async () => {
-            try {
-                const data = await getHomepageData();
-                console.log('Данные из сервиса:', data);
-                if (data && data.worldPlayers) {
-                    setWorldPlayers(data.worldPlayers);
-                }
-                if (data && data.russiaPlayers) {
-                    setRussiaPlayers(data.russiaPlayers);
-                }
-                if (data && data.videos) {
-                    setVideosList(data.videos);
-                }
-            } catch (error) {
-                console.error(
-                    'Ошибка при получении данных Homepage:',
-                    error
-                );
-            }
-        };
-        fetchHomepageData();
-    }, []);  
-    // Определяем, какой список игроков показывать
-const currentPlayers = playerType === 'world' ? worldPlayers: russiaPlayers;
+    const { data, loading, error } = useFetch(getHomepageData);
 
-  return (
+    const currentPlayers = useMemo(() => {
+        if (!data) return [];
+        return playerType === 'world' ? data.worldPlayers : data.russiaPlayers;
+    }, [data, playerType]);
+
+    if (loading) {
+        return (
+            <div className="text-center p-5">
+                <Spinner animation="border" variant="info" />
+                <p className="text-light mt-3">Загрузка игроков...</p>
+            </div>
+        );
+    }
+
+    if (error) {
+        return <Alert variant="danger" className="m-4">{error}</Alert>;
+    }
+
+    return (
         <Row className="h-100">
             {/* ЛЕВАЯ ЧАСТЬ — ИГРОКИ */}
-            <Col xs={12} md={8} className="p-4 border border-info" >
-                {/* МЕНЮ ИГРОКОВ */}
+            <Col xs={12} md={8} className="p-4 border border-info">
                 <div className="mb-4">
-                    <Button variant={playerType === 'world' ? 'info' : 'outline-info'} className="me-2"  onClick={() => setPlayerType('world')} >
+                    <Button
+                        variant={playerType === 'world' ? 'info' : 'outline-info'}
+                        className="me-2"
+                        onClick={() => setPlayerType('world')}
+                    >
                         World Players
                     </Button>
-                    <Button variant={playerType === 'russia' ? 'info'  : 'outline-info'} onClick={() => setPlayerType('russia')}>
+                    <Button
+                        variant={playerType === 'russia' ? 'info' : 'outline-info'}
+                        onClick={() => setPlayerType('russia')}
+                    >
                         Russia Players
                     </Button>
                 </div>
-                {/* СПИСОК ИГРОКОВ */}
-                {currentPlayers.map((player) => (
-                    <PlayerCard key={`${player.gender}-${player.id}`} player={player} />
-                ))}
+
+                {currentPlayers.length === 0 ? (
+                    <p className="text-secondary">Нет игроков для отображения.</p>
+                ) : (
+                    currentPlayers.map((player) => (
+                        <PlayerCard key={`${player.gender}-${player.id}`} player={player} />
+                    ))
+                )}
             </Col>
-            {/* ПРАВАЯ ЧАСТЬ — ВИДЕО */}
-            <Col xs={12} md={4} className="text-white p-4 border border-info">
-                <Videosidbar videos={videosList} />
+
+            {/* ПРАВАЯ ЧАСТЬ — оставляем пустой */}
+            <Col xs={12} md={4} className="p-4 border border-info">
+                {/* Здесь позже может быть рейтинг или фильтры */}
             </Col>
         </Row>
-  );
+    );
 }
 
-export {Equipment};
+export { Equipment };
