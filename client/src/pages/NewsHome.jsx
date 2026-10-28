@@ -10,7 +10,7 @@ import { NewsCard } from '../components/NewsCard'; // Компонент кар�
 function NewsHome() {
     // Состояния для фильтров
     const [newsType, setNewsType] = useState('world'); // 'world' или 'region'
-    const [city, setCity] = useState('moscow'); // выбранный город
+    const [city, setCity] = useState('ekb'); // выбранный город
     // Состояния для самих новостей
     const [news, setNews] = useState([]);
     const [newsLoading, setNewsLoading] = useState(true);

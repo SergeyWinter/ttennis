@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react';
 import {Row,Col,} from 'react-bootstrap';
 // import { Post } from './Post';
 import { PlayerCard } from '../components/PlayerCard';
-import { getHomepageData } from '../services/homepageService'
+import { getHomepageData } from '../services/playersService'
 import { Videosidbar } from './Videosidbar';
 // import { Videosidbar2 } from './Videosidbar2';
 

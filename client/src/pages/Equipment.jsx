@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import {Row,Col,Button} from 'react-bootstrap';
 import { PlayerCard } from '../components/PlayerCard';
-import { getHomepageData } from '../services/homepageService'
+import { getHomepageData } from '../services/playersService'
 import { Videosidbar } from './Videosidbar';
 
 function Equipment() {
