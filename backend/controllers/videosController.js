@@ -14,7 +14,16 @@ const getVideoById = (req, res) => {
 
     res.json(video);
 };
+const getAllVideos = (req, res) => {
+    try {
+        res.json(videos?.videos ?? []);
+    } catch (error) {
+        console.error('getAllVideos error:', error);
+        res.status(500).json({ error: 'Internal server error' });
+    }
+};
 
 module.exports = {
-    getVideoById
+    getVideoById,
+    getAllVideos
 };
