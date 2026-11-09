@@ -8,3 +8,10 @@ export async function getHomepageData() {
     }
     return res.json();
 }
+export async function getPlayerById(id) {
+    const res = await fetch(`${API_BASE}/api/homepage/player/${id}`);
+    if (!res.ok) {
+        throw new Error('Не удалось загрузить данные игрока');
+    }
+    return res.json();
+}

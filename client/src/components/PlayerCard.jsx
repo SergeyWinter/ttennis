@@ -1,6 +1,7 @@
 import React from 'react';
 import { Row, Col } from 'react-bootstrap';
 import { API_BASE } from '../constants/api'; // Базовый URL твоего бэкенда
+import { Link } from 'react-router-dom';
 
 function EquipmentCard({ image, name, color, baseUrl }) {
     return (
@@ -55,16 +56,20 @@ function PlayerCard({ player }) {
         <Row className="mb-5 border-bottom border-info pb-4 align-items-start">
             {/* Фото игрока — слева */}
             <Col xs={12} md={3} lg={2} className="mb-3 mb-md-0">
+              <Link to={`/player/${player.id}`}>
                 <img
                     src={`${IMG_BASE}/players/${player.image}`}
                     alt={player.name}
                     className="img-fluid rounded"
                 />
+              </Link>
             </Col>
 
             {/* Информация об игроке */}
             <Col xs={12} md={5} lg={6}>
-                <h3 style={{ color: 'rgb(56, 235, 235)' }}>{player.name}</h3>
+                <Link to={`/player/${player.id}`} className="text-decoration-none">
+                  <h3 style={{ color: 'rgb(56, 235, 235)' }}>{player.name}</h3>
+                </Link>
                 <p className="text-light mb-3">{player.country}</p>
                 <p className="text-light fs-4">{player.preview}</p>
             </Col>
