@@ -1,9 +1,9 @@
 const express = require('express');
 const router = express.Router();
-const { getHomepagePlayers } = require('../controllers/homepageController');
+const { getHomepagePlayers, getPlayerById} = require('../controllers/homepageController');
 // const {getHomepagePlayers} =require('../controllers/homepageController2');
 
 router.get('/', getHomepagePlayers);
-router.get('/players/:id', getPlayerById);
+router.get('/player/:id', getPlayerById);
 
 module.exports = router;
