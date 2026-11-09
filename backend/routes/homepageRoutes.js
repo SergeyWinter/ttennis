@@ -4,5 +4,6 @@ const { getHomepagePlayers } = require('../controllers/homepageController');
 // const {getHomepagePlayers} =require('../controllers/homepageController2');
 
 router.get('/', getHomepagePlayers);
+router.get('/players/:id', getPlayerById);
 
 module.exports = router;
