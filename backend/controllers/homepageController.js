@@ -39,6 +39,29 @@ const getHomepagePlayers = (req, res) => {
 
 };
 
+const getPlayerById = (req, res) => {
+    try {
+        const id = parseInt(req.params.id);
+        
+        // Собираем всех игроков в один массив (как в getHomepagePlayers)
+        const worldPlayers = [...playersMen.players, ...playersWomen.players].map((p, i) => ({ ...p, id: i + 1 }));
+        const russiaPlayers = [...playersRussiaMen.players, ...playersRussiaWomen.players].map((p, i) => ({ ...p, id: i + 1 }));
+        
+        // Ищем игрока по ID
+        const player = [...worldPlayers, ...russiaPlayers].find(p => p.id === id);
+
+        if (!player) {
+            return res.status(404).json({ error: 'Игрок не найден' });
+        }
+
+        res.json(player);
+    } catch (err) {
+        console.error('getPlayerById error:', err);
+        res.status(500).json({ error: 'Internal server error' });
+    }
+};
+
 module.exports = {
-    getHomepagePlayers
+    getHomepagePlayers,
+    getPlayerById
 };

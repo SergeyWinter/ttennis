@@ -4,7 +4,7 @@ import { HeroBanner } from '../components/HeroBanner';
 import { useFetch } from '../hooks/useFetch';
 import { getCities } from '../services/citiesService';
 import { getNews } from '../services/newsService';
-import { getVideos } from '../services/videosService'; // 👈 Добавили импорт
+import { getVideos } from '../services/videosService'; //[{"id":1,"episode":1,"title":"Seria_1",...
 import { NewsCard } from '../components/NewsCard';
 import { Videosidbar } from './Videosidbar'; // 👈 Добавили импорт
 
@@ -21,7 +21,8 @@ function NewsHome() {
 
     // 2. 👇 Загружаем видео (новый хук)
     const { data: videosData, loading: videosLoading, error: videosError } = useFetch(getVideos);
-
+    console.log(videosData); // 👈 Добавили логирование
+    
     // 3. Загружаем новости
     useEffect(() => {
         const fetchNewsData = async () => {
