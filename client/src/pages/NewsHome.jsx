@@ -7,6 +7,7 @@ import { getNews } from '../services/newsService';
 import { getVideos } from '../services/videosService'; //[{"id":1,"episode":1,"title":"Seria_1",...
 import { NewsCard } from '../components/NewsCard';
 import { Videosidbar } from './Videosidbar'; // 👈 Добавили импорт
+import { RegionSidebar } from '../components/RegionSidebar';
 
 function NewsHome() {
     const [newsType, setNewsType] = useState('world');
@@ -21,8 +22,8 @@ function NewsHome() {
 
     // 2. 👇 Загружаем видео (новый хук)
     const { data: videosData, loading: videosLoading, error: videosError } = useFetch(getVideos);
-    console.log(videosData); // 👈 Добавили логирование
-    
+    // console.log(videosData); // 
+
     // 3. Загружаем новости
     useEffect(() => {
         const fetchNewsData = async () => {
@@ -88,12 +89,21 @@ function NewsHome() {
                 </Col>
 
                 {/* ПРАВАЯ ЧАСТЬ — ВИДЕО */}
+
                 <Col xs={12} md={4} className="text-white p-4 border border-info">
+                    {newsType === 'world' ? (
+                    // Если выбран мир — показываем видео
+                  <>
                     {videosLoading && <p className="text-secondary">Загрузка видео...</p>}
                     {videosError && <p className="text-danger">{videosError}</p>}
                     {!videosLoading && !videosError && (
-                        <Videosidbar videos={videosList} />
-                    )}
+                 <Videosidbar videos={videosList} />
+                  )}
+                  </>
+                   ) : (
+                        // Если выбран регион — показываем только региональный сайдбар
+                 <RegionSidebar cityName={cities?.find(c => c.value === city)?.label} />
+                   )}
                 </Col>
             </Row>
         </>
