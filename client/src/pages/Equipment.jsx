@@ -3,9 +3,18 @@ import { Row, Col, Button, Spinner, Alert } from 'react-bootstrap';
 import { PlayerCard } from '../components/PlayerCard';
 import { useFetch } from '../hooks/useFetch';
 import { getHomepageData } from '../services/playersService';
+import { useSearchParams } from 'react-router-dom';
 
 function Equipment() {
-    const [playerType, setPlayerType] = useState('world');
+    // const [playerType, setPlayerType] = useState('world');
+        // Достаем тип из URL (если нет — берем 'world')
+    const [searchParams, setSearchParams] = useSearchParams();
+    const playerType = searchParams.get('type') || 'world';
+
+    // При клике на кнопку меняем URL
+    const handleTypeChange = (type) => {
+        setSearchParams({ type });
+    };
 
     const { data, loading, error } = useFetch(getHomepageData);
 
@@ -35,13 +44,13 @@ function Equipment() {
                     <Button
                         variant={playerType === 'world' ? 'info' : 'outline-info'}
                         className="me-2"
-                        onClick={() => setPlayerType('world')}
+                        onClick={() => handleTypeChange('world')}
                     >
                         World Players
                     </Button>
                     <Button
                         variant={playerType === 'russia' ? 'info' : 'outline-info'}
-                        onClick={() => setPlayerType('russia')}
+                        onClick={() => handleTypeChange('russia')}
                     >
                         Russia Players
                     </Button>
