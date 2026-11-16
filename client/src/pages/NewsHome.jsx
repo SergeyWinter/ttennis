@@ -6,6 +6,7 @@ import { useFetch } from '../hooks/useFetch';
 import { getCities } from '../services/citiesService';
 import { getNews } from '../services/newsService';
 import { getVideos } from '../services/videosService'; //[{"id":1,"episode":1,"title":"Seria_1",...
+import { getEvents } from '../services/eventsService'; // 👈 НОВЫЙ ИМПОРТ
 import { NewsCard } from '../components/NewsCard';
 import { Videosidbar } from './Videosidbar'; 
 import { RegionSidebar } from '../components/RegionSidebar';
@@ -27,6 +28,13 @@ function NewsHome() {
     // 1. Загружаем города
     const { data: cities} = useFetch(getCities);
     const { data: videosData, loading: videosLoading, error: videosError } = useFetch(getVideos);
+
+        // 👇 Загружаем события для выбранного города
+    const { data: eventsData, loading: eventsLoading } = useFetch(
+        () => getEvents(city),
+        [city] // Перезапрашиваем при смене города
+    );
+    // console.log('Текущий город из URL:', city);
     // 3. Загружаем новости
     useEffect(() => {
         const fetchNewsData = async () => {
@@ -49,6 +57,8 @@ function NewsHome() {
     //  Достаем массив видео (бэкенд отдает массив)
     const videosList = videosData || [];
 
+    const cityName = cities?.find(c => c.value === city)?.label || '';
+
     return (
         <>
             {/*  Показываем HeroBanner ТОЛЬКО если выбран мир */}
@@ -65,7 +75,7 @@ function NewsHome() {
                         </Button>
                     </div>
                     <h2 style={{ color: 'rgb(56, 235, 235)' }} className="mb-4">
-                        {newsType === 'world' ? 'Мировые новости' : `Новости: ${cities?.find(c => c.value === city)?.label || ''}`}
+                        {newsType === 'world' ? 'Мировые новости' : `Новости: ${cityName}`}
                     </h2>
                     {newsLoading && <p className="text-secondary">Загрузка новостей...</p>}
                     {newsError && <p className="text-danger">{newsError}</p>}
@@ -89,7 +99,7 @@ function NewsHome() {
                   </>
                    ) : (
                         // Если выбран регион — показываем только региональный сайдбар
-                 <RegionSidebar cityName={cities?.find(c => c.value === city)?.label} />
+                        <RegionSidebar cityName={cityName} events={eventsData || []} loading={eventsLoading} />
                    )}
                 </Col>
             </Row>

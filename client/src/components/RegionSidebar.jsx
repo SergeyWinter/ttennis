@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
-import { Card, Nav, Tab, Badge } from 'react-bootstrap';
+import { Card, Nav, Tab, Badge, Spinner } from 'react-bootstrap';
 
-function RegionSidebar({ cityName }) {
-    // Состояние для активной вкладки (по умолчанию 'calendar')
+// Принимаем events и loading из родительского компонента
+function RegionSidebar({ cityName, events = [], loading = false }) {
     const [activeTab, setActiveTab] = useState('calendar');
 
     return (
@@ -30,42 +30,38 @@ function RegionSidebar({ cityName }) {
                 <Tab.Content>
                     {/* Вкладка 1: Календарь */}
                     <Tab.Pane eventKey="calendar">
-                        <Card bg="dark" text="light" className="border-info mb-3">
-                            <Card.Body>
-                                <div className="d-flex justify-content-between align-items-start mb-2">
-                                    <Badge bg="warning" text="dark">Турнир</Badge>
-                                    <small className="text-secondary">15 Ноября</small>
-                                </div>
-                                <Card.Title style={{ color: 'rgb(56, 235, 235)', fontSize: '16px' }}>
-                                    Кубок города по настольному теннису
-                                </Card.Title>
-                                <Card.Text style={{ fontSize: '14px' }}>
-                                    Спорткомплекс "Лужники". Начало в 10:00. Регистрация открыта.
-                                </Card.Text>
-                            </Card.Body>
-                        </Card>
-
-                        <Card bg="dark" text="light" className="border-info mb-3">
-                            <Card.Body>
-                                <div className="d-flex justify-content-between align-items-start mb-2">
-                                    <Badge bg="success" text="dark">Клубный турнир</Badge>
-                                    <small className="text-secondary">20 Ноября</small>
-                                </div>
-                                <Card.Title style={{ color: 'rgb(56, 235, 235)', fontSize: '16px' }}>
-                                    Ночная лига. Этап 3
-                                </Card.Title>
-                                <Card.Text style={{ fontSize: '14px' }}>
-                                    Клуб "Топ-Спин". Начало в 19:00.
-                                </Card.Text>
-                            </Card.Body>
-                        </Card>
+                        {loading && (
+                            <div className="text-center my-4">
+                                <Spinner animation="border" variant="info" />
+                                <p className="text-secondary mt-2">Загрузка событий...</p>
+                            </div>
+                        )}
                         
-                        <p className="text-secondary text-center mt-3">
-                            Пока показаны тестовые данные. Позже подтянем с бэкенда.
-                        </p>
+                        {!loading && events.length === 0 && (
+                            <p className="text-secondary text-center">Событий пока нет.</p>
+                        )}
+
+                        {!loading && events.map((event) => (
+                            <Card key={event.id} bg="dark" text="light" className="border-info mb-3">
+                                <Card.Body>
+                                    <div className="d-flex justify-content-between align-items-start mb-2">
+                                        <Badge bg={event.badgeColor || 'warning'} text="dark">
+                                            {event.type}
+                                        </Badge>
+                                        <small className="text-secondary">{event.date}</small>
+                                    </div>
+                                    <Card.Title style={{ color: 'rgb(56, 235, 235)', fontSize: '16px' }}>
+                                        {event.title}
+                                    </Card.Title>
+                                    <Card.Text style={{ fontSize: '14px' }}>
+                                        {event.description}
+                                    </Card.Text>
+                                </Card.Body>
+                            </Card>
+                        ))}
                     </Tab.Pane>
 
-                    {/* Вкладка 2: Игроки (пока заглушка) */}
+                    {/* Вкладка 2: Игроки */}
                     <Tab.Pane eventKey="players">
                         <Card bg="dark" text="light" className="border-info">
                             <Card.Body>
