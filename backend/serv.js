@@ -8,6 +8,7 @@ const videosRoutes = require('./routes/videosRoutes');
 const citiesRoutes = require('./routes/citiesRoutes');
 const newsRoutes = require('./routes/newsRoutes');
 const eventsRoutes = require('./routes/eventsRoutes');
+const fntrRoutes = require('./routes/fntrRoutes');
 const app = express();
 const PORT = process.env.PORT || 5001;
 
@@ -24,6 +25,7 @@ app.use('/api/videos', videosRoutes);
 app.use('/api/cities', citiesRoutes);
 app.use('/api/news', newsRoutes);
 app.use('/api/events', eventsRoutes);
+app.use('/api/fntr', fntrRoutes);
 app.use('/image', express.static('media/image'));
 app.use('/videos', express.static('media/videos'));
 // подключение build

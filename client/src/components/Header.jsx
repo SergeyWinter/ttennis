@@ -65,6 +65,7 @@ function Header() {
               {/* Меню по центру */}
               <Nav className="mx-auto">
                 <Nav.Link as={Link} to="/equipment">Инвентарь</Nav.Link>
+                <Nav.Link as={Link} to="/fntr">ФНТР</Nav.Link>
                 <Nav.Link as={Link} to="/videos">Видео</Nav.Link>
                 <NavDropdown title="Dropdown" id="basic-nav-dropdown">
                   <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
