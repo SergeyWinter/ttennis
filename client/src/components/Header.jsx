@@ -12,10 +12,13 @@ function Header() {
   const { data: cities } = useFetch(getCities);
   
   // Получаем текущий регион из URL (по умолчанию 'world')
-  const currentCity = searchParams.get('city') || 'world';
+  // const currentCity = searchParams.get('city') || 'world';
+  const currentCity = searchParams.get('city') || localStorage.getItem('newsCity') || 'world';
+  
 
   const handleCityChange = (e) => {
     const selectedCity = e.target.value;
+    localStorage.setItem('newsCity', selectedCity); // 👈 Сохраняем
     if (selectedCity === 'world') {
       navigate('/?type=world'); 
     } else {
@@ -42,7 +45,20 @@ function Header() {
       <header className="two" id="myHeader">
         <Navbar expand="lg" className="">
           <Container fluid>
-            <Navbar.Brand href="/" className="text-white">MY-LOGO</Navbar.Brand>
+            {/* <Navbar.Brand href="/" className="text-white">MY-LOGO</Navbar.Brand> */}
+            {/* <Navbar.Brand as={Link} to="/?type=world" className="text-white">MY-LOGO</Navbar.Brand> */}
+            <Navbar.Brand 
+    as={Link} 
+    to="/?type=world" 
+    className="text-white"
+    onClick={() => {
+        // Очищаем сохраненный регион, чтобы шапка сбросилась на "Весь мир"
+        localStorage.removeItem('newsCity'); 
+        localStorage.setItem('newsType', 'world');
+    }}
+>
+    MY-LOGO
+</Navbar.Brand>
             <Navbar.Toggle className='navbar-light-color' aria-controls="basic-navbar-nav" />
             
             <Navbar.Collapse id="basic-navbar-nav">

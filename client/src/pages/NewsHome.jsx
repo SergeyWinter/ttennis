@@ -14,9 +14,29 @@ import { RegionSidebar } from '../components/RegionSidebar';
 function NewsHome() {
     const [searchParams, setSearchParams] = useSearchParams();
         // Если в URL нет параметра newsType, по умолчанию 'world'
-    const newsType = searchParams.get('type') || 'world';
-    const city = searchParams.get('city') || 'moscow';
+    // const newsType = searchParams.get('type') || 'world';
+    // const city = searchParams.get('city') || 'moscow';
+// 1. Берем значения из URL, если их нет — из localStorage, если нет и там — дефолт
+const urlType = searchParams.get('type');
+const urlCity = searchParams.get('city');
 
+const newsType = urlType || localStorage.getItem('newsType') || 'world';
+const city = urlCity || localStorage.getItem('newsCity') || 'moscow';
+// const urlType = searchParams.get('type') || 'world';
+// const urlCity = searchParams.get('city');
+
+// const newsType = urlType;
+// const city = urlType === 'region' ? (urlCity || 'moscow') : 'world';
+
+// 2. Сохраняем выбор в localStorage при каждом изменении
+useEffect(() => {
+    if (newsType === 'region') {
+        localStorage.setItem('newsType', 'region');
+        localStorage.setItem('newsCity', city);
+    } else {
+        localStorage.setItem('newsType', 'world');
+    }
+}, [newsType, city]);
         // Функции для изменения URL
     const handleTypeChange = (type) => {
         setSearchParams({ type, city });};
