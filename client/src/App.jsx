@@ -10,6 +10,7 @@ import {Videos} from './pages/Videos';
 import { NewsPage } from './pages/NewsPage';
 import { PlayerPage } from './pages/PlayerPage';
 import { FntrPage } from './pages/FntrPage';
+import { FntrNewsPage } from './pages/FntrNewsPage';
 // import { Videosidbar } from './pages/Videosidbar';
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
            <Route index element={<NewsHome />} />{/* Главная — новости */}
           <Route path="/news/:id" element={<NewsPage />} />
           <Route path="/fntr" element={<FntrPage />} />
+          <Route path="/fntr/:id" element={<FntrNewsPage />} />
           <Route path="/player/:id" element={<PlayerPage />} />
           <Route path="/equipment" element={<Equipment />} />
           <Route path="/videos" element={<Videos />} />

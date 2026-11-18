@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import { Container, Row, Col, Spinner, Alert, Card, Badge, Nav, Tab } from 'react-bootstrap';
 import { useFetch } from '../hooks/useFetch';
 import { getFntrNews } from '../services/fntrService';
@@ -66,20 +67,13 @@ function FntrPage() {
                                                     {formatDate(item.date)}
                                                 </span>
                                             </div>
-                                            
                                             <Card.Title style={{ color: 'rgb(56, 235, 235)', fontSize: '22px', fontWeight: 600 }}>
                                                 {item.title}
                                             </Card.Title>
-                                            
                                             <div className="mt-4">
-                                                <a 
-                                                    href={item.url} 
-                                                    target="_blank" 
-                                                    rel="noopener noreferrer" 
-                                                    className="btn btn-outline-info"
-                                                >
-                                                    Читать на сайте ФНТР →
-                                                </a>
+                                                <Link to={`/fntr/${item.id}`} className="btn btn-outline-info">
+                                                    Читать далее →
+                                                </Link>
                                             </div>
                                         </Card.Body>
                                     </Card>

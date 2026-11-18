@@ -5,3 +5,8 @@ export async function getFntrNews() {
     if (!res.ok) throw new Error('Не удалось загрузить новости ФНТР');
     return res.json();
 }
+export async function getFntrNewsById(id) {
+    const res = await fetch(`${API_BASE}/api/fntr/${id}`);
+    if (!res.ok) throw new Error('Не удалось загрузить новость');
+    return res.json();
+}
