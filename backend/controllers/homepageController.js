@@ -8,17 +8,17 @@ const playerNews = require('../data/json/playerNews.json'); // Твой файл
 
 const getHomepagePlayers = (req, res) => {
     try {
-        // 👇 Сортируем по убыванию очков (b - a)
+        // 👇 Добавляем пол и сортируем
         const worldPlayers = [
-            ...playersMen.players,
-            ...playersWomen.players
+            ...playersMen.players.map(p => ({ ...p, gender: 'men' })),
+            ...playersWomen.players.map(p => ({ ...p, gender: 'women' }))
         ]
         .sort((a, b) => (b.points || 0) - (a.points || 0))
         .map((p, i) => ({ ...p, id: i + 1 }));
 
         const russiaPlayers = [
-            ...playersRussiaMen.players,
-            ...playersRussiaWomen.players
+            ...playersRussiaMen.players.map(p => ({ ...p, gender: 'men' })),
+            ...playersRussiaWomen.players.map(p => ({ ...p, gender: 'women' }))
         ]
         .sort((a, b) => (b.points || 0) - (a.points || 0))
         .map((p, i) => ({ ...p, id: worldPlayers.length + i + 1 })); 
@@ -38,17 +38,17 @@ const getPlayerById = (req, res) => {
     try {
         const id = parseInt(req.params.id);
         
-        // 👇 Та же сортировка, чтобы ID совпадали
+        // 👇 Та же логика: добавляем пол и сортируем
         const worldPlayers = [
-            ...playersMen.players, 
-            ...playersWomen.players
+            ...playersMen.players.map(p => ({ ...p, gender: 'men' })),
+            ...playersWomen.players.map(p => ({ ...p, gender: 'women' }))
         ]
         .sort((a, b) => (b.points || 0) - (a.points || 0))
         .map((p, i) => ({ ...p, id: i + 1 }));
         
         const russiaPlayers = [
-            ...playersRussiaMen.players, 
-            ...playersRussiaWomen.players
+            ...playersRussiaMen.players.map(p => ({ ...p, gender: 'men' })),
+            ...playersRussiaWomen.players.map(p => ({ ...p, gender: 'women' }))
         ]
         .sort((a, b) => (b.points || 0) - (a.points || 0))
         .map((p, i) => ({ ...p, id: worldPlayers.length + i + 1 }));
