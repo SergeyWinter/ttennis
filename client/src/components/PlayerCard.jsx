@@ -1,5 +1,5 @@
 import React from 'react';
-import { Row, Col } from 'react-bootstrap';
+import { Row, Col,Badge } from 'react-bootstrap';
 import { API_BASE } from '../constants/api'; // Базовый URL твоего бэкенда
 import { Link } from 'react-router-dom';
 
@@ -71,6 +71,18 @@ function PlayerCard({ player }) {
                   <h3 style={{ color: 'rgb(56, 235, 235)' }}>{player.name}</h3>
                 </Link>
                 <p className="text-light mb-3">{player.country}</p>
+                <div className="mb-3 d-flex gap-2 align-items-center flex-wrap">
+                        {/* Бейджик с очками */}
+                        <Badge bg="warning" text="dark" style={{ fontSize: '16px', padding: '6px 12px' }}>
+                            🏆 {player.points ? `${player.points} очков` : 'Очки не указаны'}
+                        </Badge>
+                        {/* Бейджик с местом (если ranking есть в JSON) */}
+                        {player.ranking && (
+                            <Badge bg="info" text="dark" style={{ fontSize: '14px', padding: '6px 10px' }}>
+                                🏅 Место: #{player.ranking}
+                            </Badge>
+                        )}
+                </div>
                 <p className="text-light fs-4">{player.preview}</p>
             </Col>
 

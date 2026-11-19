@@ -1,8 +1,4 @@
-//controllers/homepageController.js
-
-// const players = require('../data/json/players.json');
-// const players = require('../data/json/players.json');
-// const videos = require('../data/json/videos.json');
+// homepageController.js
 const playersMen = require('../data/json/players_men_top30_2026.json');
 const playersWomen = require('../data/json/players_women_top30_2026.json');
 const playersRussiaMen = require('../data/json/players_russia_men.json');
@@ -12,16 +8,20 @@ const playerNews = require('../data/json/playerNews.json'); // Твой файл
 
 const getHomepagePlayers = (req, res) => {
     try {
+        // 👇 Сортируем по убыванию очков (b - a)
         const worldPlayers = [
             ...playersMen.players,
             ...playersWomen.players
-        ].map((p, i) => ({ ...p, id: i + 1 }));
+        ]
+        .sort((a, b) => (b.points || 0) - (a.points || 0))
+        .map((p, i) => ({ ...p, id: i + 1 }));
 
-        // 👇 Начинаем ID российских игроков после мировых
         const russiaPlayers = [
             ...playersRussiaMen.players,
             ...playersRussiaWomen.players
-        ].map((p, i) => ({ ...p, id: worldPlayers.length + i + 1 })); 
+        ]
+        .sort((a, b) => (b.points || 0) - (a.points || 0))
+        .map((p, i) => ({ ...p, id: worldPlayers.length + i + 1 })); 
 
         res.json({
             worldPlayers,
@@ -38,15 +38,20 @@ const getPlayerById = (req, res) => {
     try {
         const id = parseInt(req.params.id);
         
+        // 👇 Та же сортировка, чтобы ID совпадали
         const worldPlayers = [
             ...playersMen.players, 
             ...playersWomen.players
-        ].map((p, i) => ({ ...p, id: i + 1 }));
+        ]
+        .sort((a, b) => (b.points || 0) - (a.points || 0))
+        .map((p, i) => ({ ...p, id: i + 1 }));
         
         const russiaPlayers = [
             ...playersRussiaMen.players, 
             ...playersRussiaWomen.players
-        ].map((p, i) => ({ ...p, id: worldPlayers.length + i + 1 })); // 👈 Та же логика
+        ]
+        .sort((a, b) => (b.points || 0) - (a.points || 0))
+        .map((p, i) => ({ ...p, id: worldPlayers.length + i + 1 }));
 
         const player = [...worldPlayers, ...russiaPlayers].find(p => p.id === id);
 
