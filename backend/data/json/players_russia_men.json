@@ -14,6 +14,7 @@
       "name": "Vladimir Sidorenko",
       "gender": "man",
       "country": "Russia",
+      "points": 2123,
       "image": "Vladimir-Sidorenko-1.jpg",
       "equipment": {
         "blade": {
@@ -36,6 +37,7 @@
       "name": "Evgeny Tikhonov",
       "gender": "man",
       "country": "Russia",
+      "points": 1890,
       "image": "Evgeny-Tikhonov-1.jpg",
       "equipment": {
         "blade": {
@@ -58,6 +60,7 @@
       "name": "Nikita Artemenko",
       "gender": "man",
       "country": "Russia",
+      "points": 1789,
       "image": "Nikita-Artemenko-1.jpg",
       "equipment": {
         "blade": {
@@ -80,6 +83,7 @@
       "name": "Denis Ivonin",
       "gender": "man",
       "country": "Russia",
+      "points": 1654,
       "image": null,
       "equipment": {
         "blade": {
@@ -102,6 +106,7 @@
       "name": "Lev Katsman",
       "gender": "man",
       "country": "Russia",
+      "points": 1543,
       "image": null,
       "equipment": {
         "blade": {
@@ -124,6 +129,7 @@
       "name": "Dmitrii Vinogradov",
       "gender": "man",
       "country": "Russia",
+      "points": 1456,
       "image": null,
       "equipment": {
         "blade": {
@@ -146,6 +152,7 @@
       "name": "Maksim Grebnev",
       "gender": "man",
       "country": "Russia",
+      "points": 1387,
       "image": null,
       "equipment": {
         "blade": {
@@ -168,6 +175,7 @@
       "name": "Kirill Skachkov",
       "gender": "man",
       "country": "Russia",
+      "points": 1321,
       "image": null,
       "equipment": {
         "blade": {
@@ -190,6 +198,7 @@
       "name": "Vladislav Makarov",
       "gender": "man",
       "country": "Russia",
+      "points": 1289,
       "image": null,
       "equipment": {
         "blade": {
@@ -212,6 +221,7 @@
       "name": "Lev Volin",
       "gender": "man",
       "country": "Russia",
+      "points": 1254,
       "image": null,
       "equipment": {
         "blade": {

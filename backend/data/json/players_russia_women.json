@@ -14,6 +14,7 @@
       "name": "Elizabet Abraamian",
       "gender": "woman",
       "country": "Russia",
+      "points": 1987,
       "image": null,
       "equipment": {
         "blade": {
@@ -36,6 +37,7 @@
       "name": "Vlada Voronina",
       "gender": "woman",
       "country": "Russia",
+      "points": 1890,
       "image": null,
       "equipment": {
         "blade": {
@@ -58,6 +60,7 @@
       "name": "Maria Panfilova",
       "gender": "woman",
       "country": "Russia",
+      "points": 1789,
       "image": null,
       "equipment": {
         "blade": {
@@ -80,6 +83,7 @@
       "name": "Arina Slautina",
       "gender": "woman",
       "country": "Russia",
+      "points": 1654,
       "image": null,
       "equipment": {
         "blade": {
@@ -102,6 +106,7 @@
       "name": "Valeria Shcherbatykh",
       "gender": "woman",
       "country": "Russia",
+      "points": 1543,
       "image": null,
       "equipment": {
         "blade": {
@@ -124,6 +129,7 @@
       "name": "Mariia Tailakova",
       "gender": "woman",
       "country": "Russia",
+      "points": 1456,
       "image": null,
       "equipment": {
         "blade": {
@@ -146,6 +152,7 @@
       "name": "Zlata Terekhova",
       "gender": "woman",
       "country": "Russia",
+      "points": 1387,
       "image": null,
       "equipment": {
         "blade": {
@@ -168,6 +175,7 @@
       "name": "Ekaterina Zironova",
       "gender": "woman",
       "country": "Russia",
+      "points": 1321,
       "image": null,
       "equipment": {
         "blade": {
@@ -190,6 +198,7 @@
       "name": "Valeria Kotcyur",
       "gender": "woman",
       "country": "Russia",
+      "points": 1289,
       "image": null,
       "equipment": {
         "blade": {
@@ -212,6 +221,7 @@
       "name": "Alina Zavarykina",
       "gender": "woman",
       "country": "Russia",
+      "points": 1254,
       "image": null,
       "equipment": {
         "blade": {

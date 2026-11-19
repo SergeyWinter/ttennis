@@ -13,6 +13,7 @@
       "name": "Wang Chuqin",
       "gender": "man",
       "country": "China",
+      "points": 6297,
       "image": "Wang-Chuqin-1.jpg",
       "equipment": {
         "blade": {
@@ -35,6 +36,7 @@
       "name": "Felix Lebrun",
       "gender": "man",
       "country": "France",
+      "points": 5842,
       "image": "Félix-Lebrun-1.jpg",
       "equipment": {
         "blade": {
@@ -57,6 +59,7 @@
       "name": "Sora Matsushima",
       "gender": "man",
       "country": "Japan",
+      "points": 5321,
       "image": "Sora-Matsushima-1.jpg",
       "equipment": {
         "blade": {
@@ -79,6 +82,7 @@
       "name": "Tomokazu Harimoto",
       "gender": "man",
       "country": "Japan",
+      "points": 4890,
       "image": null,
       "equipment": {
         "blade": {
@@ -101,6 +105,7 @@
       "name": "Truls Moregard",
       "gender": "man",
       "country": "Sweden",
+      "points": 4321,
       "image": null,
       "equipment": {
         "blade": {
@@ -123,6 +128,7 @@
       "name": "Lin Yun-Ju",
       "gender": "man",
       "country": "Chinese Taipei",
+      "points": 3876,
       "image": null,
       "equipment": {
         "blade": {
@@ -145,6 +151,7 @@
       "name": "Hugo Calderano",
       "gender": "man",
       "country": "Brazil",
+      "points": 3456,
       "image": null,
       "equipment": {
         "blade": {
@@ -167,6 +174,7 @@
       "name": "Lin Shidong",
       "gender": "man",
       "country": "China",
+      "points": 3012,
       "image": null,
       "equipment": {
         "blade": {
@@ -189,6 +197,7 @@
       "name": "Alexis Lebrun",
       "gender": "man",
       "country": "France",
+      "points": 2567,
       "image": null,
       "equipment": {
         "blade": {
@@ -211,6 +220,7 @@
       "name": "Jang Woojin",
       "gender": "man",
       "country": "South Korea",
+      "points": 2012,
       "image": null,
       "equipment": {
         "blade": {
@@ -233,6 +243,7 @@
       "name": "Qiu Dang",
       "gender": "man",
       "country": "Germany",
+      "points": 1567,
       "image": null,
       "equipment": {
         "blade": {
@@ -255,6 +266,7 @@
       "name": "Darko Jorgic",
       "gender": "man",
       "country": "Slovenia",
+      "points": 1123,
       "image": null,
       "equipment": {
         "blade": {
@@ -277,6 +289,7 @@
       "name": "Anders Lind",
       "gender": "man",
       "country": "Denmark",
+      "points": 678,
       "image": null,
       "equipment": {
         "blade": {
@@ -299,6 +312,7 @@
       "name": "Shunsuke Togami",
       "gender": "man",
       "country": "Japan",
+      "points": 1234,
       "image": null,
       "equipment": {
         "blade": {
@@ -321,6 +335,7 @@
       "name": "Wen Ruibo",
       "gender": "man",
       "country": "China",
+      "points": 876,
       "image": null,
       "equipment": {
         "blade": {
@@ -343,6 +358,7 @@
       "name": "Vladimir Sidorenko",
       "gender": "man",
       "country": "Russia",
+      "points": 432,
       "image": null,
       "equipment": {
         "blade": {
@@ -365,6 +381,7 @@
       "name": "Hiroto Shinozuka",
       "gender": "man",
       "country": "Japan",
+      "points": 3012,
       "image": null,
       "equipment": {
         "blade": {
@@ -387,6 +404,7 @@
       "name": "Patrick Franziska",
       "gender": "man",
       "country": "Germany",
+      "points": 2567,
       "image": null,
       "equipment": {
         "blade": {
@@ -409,6 +427,7 @@
       "name": "Xiang Peng",
       "gender": "man",
       "country": "China",
+      "points": 2012,
       "image": null,
       "equipment": {
         "blade": {
@@ -431,6 +450,7 @@
       "name": "Thibault Poret",
       "gender": "man",
       "country": "France",
+      "points": 1567,
       "image": null,
       "equipment": {
         "blade": {
@@ -453,6 +473,7 @@
       "name": "Oh Junsung",
       "gender": "man",
       "country": "South Korea",
+      "points": 1123,
       "image": null,
       "equipment": {
         "blade": {
@@ -475,6 +496,7 @@
       "name": "Flavien Coton",
       "gender": "man",
       "country": "France",
+      "points": 678,
       "image": null,
       "equipment": {
         "blade": {
@@ -497,6 +519,7 @@
       "name": "Dimitrij Ovtcharov",
       "gender": "man",
       "country": "Germany",
+      "points": 1234,
       "image": null,
       "equipment": {
         "blade": {
@@ -519,6 +542,7 @@
       "name": "Zhou Qihao",
       "gender": "man",
       "country": "China",
+      "points": 876,
       "image": null,
       "equipment": {
         "blade": {
@@ -541,6 +565,7 @@
       "name": "Yukiya Uda",
       "gender": "man",
       "country": "Japan",
+      "points": 432,
       "image": null,
       "equipment": {
         "blade": {
@@ -563,6 +588,7 @@
       "name": "Kanak Jha",
       "gender": "man",
       "country": "United States",
+      "points": 3012,
       "image": null,
       "equipment": {
         "blade": {
@@ -585,6 +611,7 @@
       "name": "Omar Assar",
       "gender": "man",
       "country": "Egypt",
+      "points": 2567,
       "image": null,
       "equipment": {
         "blade": {
@@ -607,6 +634,7 @@
       "name": "Chen Yuanyu",
       "gender": "man",
       "country": "China",
+      "points": 2012,
       "image": null,
       "equipment": {
         "blade": {
@@ -629,6 +657,7 @@
       "name": "Simon Gauzy",
       "gender": "man",
       "country": "France",
+      "points": 1567,
       "image": null,
       "equipment": {
         "blade": {
@@ -651,6 +680,7 @@
       "name": "Tomislav Pucar",
       "gender": "man",
       "country": "Croatia",
+      "points": 1123,
       "image": null,
       "equipment": {
         "blade": {

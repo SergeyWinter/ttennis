@@ -12,6 +12,7 @@
       "name": "Sun Yingsha",
       "gender": "woman",
       "country": "China",
+      "points": 3456,
       "image": null,
       "equipment": {
         "blade": {
@@ -34,6 +35,7 @@
       "name": "Wang Manyu",
       "gender": "woman",
       "country": "China",
+      "points": 3012,
       "image": null,
       "equipment": {
         "blade": {
@@ -56,6 +58,7 @@
       "name": "Miwa Harimoto",
       "gender": "woman",
       "country": "Japan",
+      "points": 2765,
       "image": null,
       "equipment": {
         "blade": {
@@ -78,6 +81,7 @@
       "name": "Kuai Man",
       "gender": "woman",
       "country": "China",
+      "points": 2567,
       "image": null,
       "equipment": {
         "blade": {
@@ -100,6 +104,7 @@
       "name": "Wang Yidi",
       "gender": "woman",
       "country": "China",
+      "points": 2567,
       "image": null,
       "equipment": {
         "blade": {
@@ -122,6 +127,7 @@
       "name": "Hina Hayata",
       "gender": "woman",
       "country": "Japan",
+      "points": 2345,
       "image": null,
       "equipment": {
         "blade": {
@@ -144,6 +150,7 @@
       "name": "Chen Xingtong",
       "gender": "woman",
       "country": "China",
+      "points": 2345,
       "image": null,
       "equipment": {
         "blade": {
@@ -166,6 +173,7 @@
       "name": "Zhu Yuling",
       "gender": "woman",
       "country": "Macau",
+      "points": 2123,
       "image": null,
       "equipment": {
         "blade": {
@@ -188,6 +196,7 @@
       "name": "Sabine Winter",
       "gender": "woman",
       "country": "Germany",
+      "points": 2012,
       "image": null,
       "equipment": {
         "blade": {
@@ -210,6 +219,7 @@
       "name": "Shin Yubin",
       "gender": "woman",
       "country": "South Korea",
+      "points": 2012,
       "image": null,
       "equipment": {
         "blade": {
@@ -232,6 +242,7 @@
       "name": "Satsuki Odo",
       "gender": "woman",
       "country": "Japan",
+      "points": 2012,
       "image": null,
       "equipment": {
         "blade": {
@@ -254,6 +265,7 @@
       "name": "Chen Yi",
       "gender": "woman",
       "country": "China",
+      "points": 2012,
       "image": null,
       "equipment": {
         "blade": {
@@ -276,6 +288,7 @@
       "name": "Joo Cheonhui",
       "gender": "woman",
       "country": "South Korea",
+      "points": 2012,
       "image": null,
       "equipment": {
         "blade": {
@@ -298,6 +311,7 @@
       "name": "Honoka Hashimoto",
       "gender": "woman",
       "country": "Japan",
+      "points": 2012,
       "image": null,
       "equipment": {
         "blade": {
@@ -320,6 +334,7 @@
       "name": "Hitomi Sato",
       "gender": "woman",
       "country": "Japan",
+      "points": 2012,
       "image": null,
       "equipment": {
         "blade": {
@@ -342,6 +357,7 @@
       "name": "Shi Xunyao",
       "gender": "woman",
       "country": "China",
+      "points": 2012,
       "image": null,
       "equipment": {
         "blade": {
@@ -364,6 +380,7 @@
       "name": "Han Ying",
       "gender": "woman",
       "country": "Germany",
+      "points": 2012,
       "image": null,
       "equipment": {
         "blade": {
@@ -386,6 +403,7 @@
       "name": "Miyu Nagasaki",
       "gender": "woman",
       "country": "Japan",
+      "points": 2012,
       "image": null,
       "equipment": {
         "blade": {
@@ -408,6 +426,7 @@
       "name": "Adriana Diaz",
       "gender": "woman",
       "country": "Puerto Rico",
+      "points": 2012,
       "image": null,
       "equipment": {
         "blade": {
@@ -430,6 +449,7 @@
       "name": "Mima Ito",
       "gender": "woman",
       "country": "Japan",
+      "points": 2012,
       "image": null,
       "equipment": {
         "blade": {
@@ -452,6 +472,7 @@
       "name": "Hana Goda",
       "gender": "woman",
       "country": "Egypt",
+      "points": 2012,
       "image": null,
       "equipment": {
         "blade": {
@@ -474,6 +495,7 @@
       "name": "Sakura Yokoi",
       "gender": "woman",
       "country": "Japan",
+      "points": 2012,
       "image": null,
       "equipment": {
         "blade": {
@@ -496,6 +518,7 @@
       "name": "Qin Yuxuan",
       "gender": "woman",
       "country": "China",
+      "points": 2012,
       "image": null,
       "equipment": {
         "blade": {
@@ -518,6 +541,7 @@
       "name": "Bernadette Szocs",
       "gender": "woman",
       "country": "Romania",
+      "points": 2012,
       "image": null,
       "equipment": {
         "blade": {
@@ -540,6 +564,7 @@
       "name": "Miyuu Kihara",
       "gender": "woman",
       "country": "Japan",
+      "points": 2012,
       "image": null,
       "equipment": {
         "blade": {
@@ -562,6 +587,7 @@
       "name": "Bruna Takahashi",
       "gender": "woman",
       "country": "Brazil",
+      "points": 2012,
       "image": null,
       "equipment": {
         "blade": {
@@ -584,6 +610,7 @@
       "name": "Miu Hirano",
       "gender": "woman",
       "country": "Japan",
+      "points": 2012,
       "image": null,
       "equipment": {
         "blade": {
@@ -606,6 +633,7 @@
       "name": "Nina Mittelham",
       "gender": "woman",
       "country": "Germany",
+      "points": 2012,
       "image": null,
       "equipment": {
         "blade": {
@@ -628,6 +656,7 @@
       "name": "Cheng I-Ching",
       "gender": "woman",
       "country": "Chinese Taipei",
+      "points": 2012,
       "image": null,
       "equipment": {
         "blade": {
@@ -650,6 +679,7 @@
       "name": "Kim Nayeong",
       "gender": "woman",
       "country": "South Korea",
+      "points": 2012,
       "image": null,
       "equipment": {
         "blade": {
